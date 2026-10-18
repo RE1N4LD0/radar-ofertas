@@ -7,7 +7,8 @@
 const STORAGE_KEYS = {
   TAG: "amz_affiliate_tag",
   PRODUCTS: "amz_affiliate_products",
-  STORE_NAME: "amz_store_name"
+  STORE_NAME: "amz_store_name",
+  VIP_LINK: "amz_vip_link"
 };
 
 // Estado Global da Aplicação
@@ -98,6 +99,19 @@ function renderCategories() {
   if (!container) return;
 
   container.innerHTML = STORE_CATEGORIES.map(cat => {
+    if (cat.isCoupon) {
+      return `
+        <button 
+          class="category-pill flex items-center gap-2 px-4 py-2 rounded-full text-sm font-bold transition-all duration-200 whitespace-nowrap bg-gradient-to-r from-rose-600 to-amber-600 hover:from-rose-500 hover:to-amber-500 text-white shadow-lg shadow-rose-600/20 border border-rose-400/40 hover:scale-105 active:scale-95"
+          onclick="openCoupons()"
+          title="Ver página oficial de cupons da Amazon Brasil com até 30% OFF"
+        >
+          <i class="fa-solid fa-ticket text-amber-300"></i>
+          <span>${cat.name}</span>
+        </button>
+      `;
+    }
+
     const isActive = AppState.currentCategory === cat.id;
     return `
       <button 
@@ -383,7 +397,7 @@ function resetFilters() {
   renderProducts();
 }
 
-// UI de Tag de Afiliado
+// UI de Tag de Afiliado e Configurações
 function updateAffiliateTagDisplay() {
   const tagBadge = document.getElementById("current-tag-badge");
   if (tagBadge) {
@@ -392,6 +406,10 @@ function updateAffiliateTagDisplay() {
   const tagInput = document.getElementById("modal-affiliate-tag-input");
   if (tagInput) {
     tagInput.value = AppState.affiliateTag;
+  }
+  const vipInput = document.getElementById("modal-vip-link-input");
+  if (vipInput) {
+    vipInput.value = localStorage.getItem(STORAGE_KEYS.VIP_LINK) || "";
   }
 }
 
@@ -407,19 +425,45 @@ function closeTagModal() {
 
 function saveAffiliateTag() {
   const input = document.getElementById("modal-affiliate-tag-input");
-  if (!input) return;
-  const newTag = input.value.trim();
-  if (!newTag) {
-    showToast("Por favor insira um ID de associado válido (ex: seuid-20)", "warning");
-    return;
+  const vipInput = document.getElementById("modal-vip-link-input");
+  
+  if (input) {
+    const newTag = input.value.trim();
+    if (newTag) {
+      AppState.affiliateTag = newTag;
+      localStorage.setItem(STORAGE_KEYS.TAG, newTag);
+    }
   }
 
-  AppState.affiliateTag = newTag;
-  localStorage.setItem(STORAGE_KEYS.TAG, newTag);
+  if (vipInput) {
+    const vipLink = vipInput.value.trim();
+    localStorage.setItem(STORAGE_KEYS.VIP_LINK, vipLink);
+  }
+
   updateAffiliateTagDisplay();
   closeTagModal();
   renderProducts();
-  showToast(`Tag de afiliado atualizada para: ${newTag}! Todos os links já estão com ela.`);
+  initUI();
+  showToast("Configurações salvas com sucesso!");
+}
+
+// Abertura da Central Oficial de Cupons com a tag de afiliado
+function openCoupons() {
+  const url = buildAffiliateUrl("https://www.amazon.com.br/cupons");
+  window.open(url, "_blank", "noopener,sponsored");
+  showToast("Abrindo a Central Oficial de Cupons da Amazon!", "success");
+}
+
+// Redirecionamento para o Grupo VIP no WhatsApp/Telegram
+function handleVipGroupClick(e) {
+  if (e) e.preventDefault();
+  const savedUrl = localStorage.getItem(STORAGE_KEYS.VIP_LINK);
+  if (savedUrl && savedUrl.trim()) {
+    window.open(savedUrl.trim(), "_blank");
+  } else {
+    openTagModal();
+    showToast("Cole o link de convite do seu grupo no campo abaixo!", "warning");
+  }
 }
 
 // Busca dados reais diretamente da Amazon via API local
@@ -649,6 +693,12 @@ function initUI() {
   if (primeBannerBtn) {
     // Link oficial da página de teste de 30 dias grátis do Amazon Prime
     primeBannerBtn.href = buildAffiliateUrl("https://www.amazon.com.br/prime");
+  }
+
+  // Ajuste do link da Central de Cupons da Amazon
+  const cuponsBtn = document.getElementById("btn-central-cupons");
+  if (cuponsBtn) {
+    cuponsBtn.href = buildAffiliateUrl("https://www.amazon.com.br/cupons");
   }
 
   // Exibe timestamp da última sincronização automática com a Amazon

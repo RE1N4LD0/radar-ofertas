@@ -269,6 +269,35 @@
 
     </div>
 
+    <!-- Banner de Destaque: Cupons Secretos da Amazon -->
+    <div class="mb-8 bg-gradient-to-r from-amber-500/10 via-rose-500/10 to-purple-500/10 border border-amber-500/30 rounded-2xl p-4 sm:p-5 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-lg backdrop-blur-sm">
+      <div class="flex items-center gap-3.5">
+        <div class="w-12 h-12 rounded-xl bg-gradient-to-tr from-amber-500 to-rose-500 text-slate-950 flex items-center justify-center text-2xl font-black shadow-md shrink-0">
+          <i class="fa-solid fa-ticket"></i>
+        </div>
+        <div>
+          <div class="flex items-center gap-2">
+            <span class="inline-block px-2 py-0.5 rounded bg-rose-600/90 text-white font-extrabold text-[10px] uppercase tracking-wider animate-pulse">Desconto Extra</span>
+            <h3 class="text-sm sm:text-base font-bold text-white">Central Oficial de Cupons da Amazon Brasil</h3>
+          </div>
+          <p class="text-xs text-slate-300 mt-0.5">
+            Ative cupons com até <strong>30% OFF</strong> em Eletrônicos, Casa, Setup e Livros antes de finalizar seu pedido!
+          </p>
+        </div>
+      </div>
+      <a 
+        id="btn-central-cupons"
+        href="https://www.amazon.com.br/cupons" 
+        target="_blank" 
+        rel="sponsored noopener"
+        class="whitespace-nowrap px-4 py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-rose-500 hover:from-amber-400 hover:to-rose-400 text-slate-950 font-bold text-xs shadow-md transition-all active:scale-95 flex items-center gap-2 shrink-0"
+      >
+        <i class="fa-solid fa-gift"></i>
+        <span>Resgatar Cupons na Amazon</span>
+        <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+      </a>
+    </div>
+
     <!-- Grid de Produtos -->
     <div id="products-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
       <!-- Injetado dinamicamente via app.js -->
@@ -292,13 +321,15 @@
           </p>
         </div>
       </div>
-      <button 
-        onclick="alert('Você pode personalizar o link do seu grupo VIP no WhatsApp ou canal do Telegram no código ou nas configurações!')" 
-        class="whitespace-nowrap px-6 py-3 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-extrabold text-sm shadow-lg shadow-emerald-500/20 transition-all active:scale-95 flex items-center gap-2"
+      <a 
+        id="vip-group-btn"
+        href="#"
+        onclick="handleVipGroupClick(event)"
+        class="whitespace-nowrap px-6 py-3 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-extrabold text-sm shadow-lg shadow-emerald-500/20 transition-all active:scale-95 flex items-center gap-2 cursor-pointer"
       >
         <i class="fa-solid fa-bell"></i>
         <span>Entrar no Grupo de Cupons</span>
-      </button>
+      </a>
     </div>
   </section>
 
@@ -359,6 +390,19 @@
           />
           <p class="text-[11px] text-slate-400 mt-1.5">
             Você encontra essa tag no canto superior direito do portal do <a href="https://associados.amazon.com.br" target="_blank" class="text-amber-400 underline">Associados Amazon Brasil</a>. Geralmente termina com <strong>-20</strong>.
+          </p>
+        </div>
+
+        <div>
+          <label class="block text-xs font-semibold text-slate-300 mb-1.5">Link do seu Grupo de Ofertas (WhatsApp ou Telegram):</label>
+          <input 
+            type="url" 
+            id="modal-vip-link-input"
+            placeholder="https://chat.whatsapp.com/... ou https://t.me/..."
+            class="w-full bg-slate-800 text-sm text-slate-100 rounded-xl px-3.5 py-2.5 border border-slate-700 focus:border-amber-400 focus:outline-none text-xs"
+          />
+          <p class="text-[11px] text-slate-400 mt-1.5">
+            Cole o link de convite do seu grupo para onde os visitantes serão direcionados ao clicar em <em>"Entrar no Grupo de Cupons"</em>.
           </p>
         </div>
 

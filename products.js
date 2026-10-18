@@ -361,6 +361,7 @@ const INITIAL_PRODUCTS = [
 
 const STORE_CATEGORIES = [
   { id: "all", name: "Todos os Produtos", icon: "fa-border-all" },
+  { id: "cupons", name: "Cupons do Dia 🎟️", icon: "fa-ticket", isCoupon: true },
   { id: "casa-inteligente", name: "Casa Inteligente & Alexa", icon: "fa-house-signal" },
   { id: "tecnologia", name: "Tecnologia & Smartphones", icon: "fa-mobile-screen-button" },
   { id: "setup", name: "Setup & Informática", icon: "fa-laptop-code" },
