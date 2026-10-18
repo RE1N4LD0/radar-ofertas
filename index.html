@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Radar de Ofertas | Vitrine Oficial de Achadinhos Amazon Brasil</title>
+  <meta name="description" content="Encontre os melhores achadinhos, produtos em promoção e descontos imperdíveis com entrega rápida e frete grátis Prime na Amazon.">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              dark: '#0f172a',
+              card: '#1e293b',
+              accent: '#f59e0b',
+              prime: '#00a8e1',
+              amazon: '#ff9900'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <style>
+    /* Estilização da barra de rolagem */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #0f172a;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #334155;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #475569;
+    }
+    .hide-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .hide-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased min-h-screen flex flex-col selection:bg-amber-500 selection:text-slate-950">
+
+  <!-- ================= BARRA SUPERIOR PRIME BOUNTY ================= -->
+  <div class="bg-gradient-to-r from-sky-600 via-sky-500 to-amber-500 text-white text-xs sm:text-sm font-semibold py-2 px-4 shadow-md text-center">
+    <div class="max-w-7xl mx-auto flex items-center justify-center gap-2 sm:gap-4 flex-wrap">
+      <span><i class="fa-solid fa-crown text-amber-300"></i> Aproveite <strong>30 Dias Grátis de Amazon Prime</strong> com Frete Grátis e Prime Video:</span>
+      <a 
+        id="prime-cta-btn"
+        href="https://www.amazon.com.br/prime" 
+        target="_blank" 
+        rel="sponsored noopener"
+        class="inline-flex items-center gap-1.5 bg-slate-950/80 hover:bg-slate-950 text-white text-xs font-bold px-3 py-1 rounded-full border border-white/20 transition-all hover:scale-105"
+      >
+        <span>Testar Grátis</span>
+        <i class="fa-solid fa-arrow-right text-[10px]"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- ================= HEADER PRINCIPAL ================= -->
+  <header class="sticky top-0 z-40 bg-slate-900/90 backdrop-blur-md border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
+      
+      <!-- Logo / Marca -->
+      <a href="#" onclick="resetFilters(); return false;" class="flex items-center gap-2.5 group">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-amber-500 to-amber-400 flex items-center justify-center text-slate-950 text-xl font-black shadow-lg shadow-amber-500/20 group-hover:scale-105 transition-transform">
+          <i class="fa-brands fa-amazon"></i>
+        </div>
+        <div>
+          <span class="text-xl font-black tracking-tight text-white flex items-center gap-1">
+            RADAR<span class="text-amber-400">AMAZON</span>
+          </span>
+          <span class="text-[10px] tracking-wider text-slate-400 uppercase font-semibold block -mt-1">
+            Vitrine de Ofertas & Achadinhos
+          </span>
+        </div>
+      </a>
+
+      <!-- Barra de Busca Central (Desktop) -->
+      <div class="hidden md:flex flex-1 max-w-lg mx-4">
+        <div class="relative w-full">
+          <input 
+            type="text" 
+            id="search-input"
+            placeholder="Buscar por Echo Dot, Fone Bluetooth, Air Fryer, Livros..."
+            class="w-full bg-slate-800 text-sm text-slate-100 placeholder-slate-400 rounded-xl pl-11 pr-4 py-2.5 border border-slate-700 focus:border-amber-400 focus:ring-2 focus:ring-amber-400/20 focus:outline-none transition-all shadow-inner"
+          />
+          <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ações do Header / Gestor de Afiliado -->
+      <div class="flex items-center gap-2.5">
+        
+        <!-- Tag de Afiliado Atual (Pill Clicável) -->
+        <button 
+          onclick="openTagModal()" 
+          title="Clique para alterar seu ID de Afiliado da Amazon"
+          class="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700/80 border border-amber-500/30 hover:border-amber-400 text-xs text-slate-200 transition-all shadow-sm"
+        >
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+          <span class="text-slate-400 hidden sm:inline">Tag:</span>
+          <strong id="current-tag-badge" class="text-amber-400 font-mono">suatag-20</strong>
+          <i class="fa-solid fa-pen-to-square text-[10px] text-slate-400"></i>
+        </button>
+
+        <!-- Botão Adicionar Produto -->
+        <button 
+          onclick="openAddProductModal()"
+          class="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs transition-all shadow-md active:scale-95"
+        >
+          <i class="fa-solid fa-plus"></i>
+          <span class="hidden sm:inline">Adicionar Produto</span>
+        </button>
+
+        <!-- Dropdown / Mais Opções -->
+        <div class="relative group">
+          <button class="w-9 h-9 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 flex items-center justify-center border border-slate-700 text-sm">
+            <i class="fa-solid fa-gear"></i>
+          </button>
+          <div class="absolute right-0 mt-2 w-52 bg-slate-800 border border-slate-700 rounded-xl shadow-2xl py-1.5 z-50 hidden group-hover:block group-focus-within:block">
+            <button onclick="exportCatalog()" class="w-full text-left px-4 py-2 text-xs text-slate-200 hover:bg-slate-700 flex items-center gap-2">
+              <i class="fa-solid fa-download text-amber-400"></i> Exportar Catálogo (JSON)
+            </button>
+            <button onclick="importCatalog()" class="w-full text-left px-4 py-2 text-xs text-slate-200 hover:bg-slate-700 flex items-center gap-2">
+              <i class="fa-solid fa-upload text-sky-400"></i> Importar Catálogo (JSON)
+            </button>
+            <div class="border-t border-slate-700 my-1"></div>
+            <button onclick="resetToDefaultCatalog()" class="w-full text-left px-4 py-2 text-xs text-rose-400 hover:bg-slate-700 flex items-center gap-2">
+              <i class="fa-solid fa-rotate-left"></i> Restaurar Produtos Padrão
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Barra de busca no Mobile -->
+    <div class="md:hidden px-4 pb-3">
+      <div class="relative w-full">
+        <input 
+          type="text" 
+          oninput="AppState.searchQuery = this.value; renderProducts();"
+          placeholder="Buscar produtos em oferta..."
+          class="w-full bg-slate-800 text-sm text-slate-100 placeholder-slate-400 rounded-xl pl-10 pr-4 py-2 border border-slate-700 focus:border-amber-400 focus:outline-none"
+        />
+        <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= HERO BANNER ================= -->
+  <section class="relative bg-gradient-to-b from-slate-900 to-slate-950 border-b border-slate-800/80 py-10 px-4 sm:px-6 lg:px-8 overflow-hidden">
+    <!-- Efeito de iluminação de fundo -->
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] bg-amber-500/10 blur-[120px] pointer-events-none rounded-full"></div>
+
+    <div class="max-w-5xl mx-auto text-center relative z-10">
+      <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-semibold mb-4 shadow-sm">
+        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+        <span id="sync-status-badge">Sincronizado Automaticamente com a Amazon Brasil</span>
+      </div>
+      <h1 class="text-3xl sm:text-5xl font-black text-white tracking-tight mb-4">
+        Achadinhos e Ofertas <span class="bg-gradient-to-r from-amber-400 to-amber-200 bg-clip-text text-transparent">Exclusivas Amazon</span>
+      </h1>
+      <p class="text-sm sm:text-base text-slate-300 max-w-2xl mx-auto mb-6">
+        Curadoria com os produtos mais vendidos, avaliados com mais de 4 estrelas e com frete grátis para membros Prime.
+      </p>
+
+      <!-- Destaques de confiança -->
+      <div class="flex items-center justify-center gap-6 sm:gap-10 text-xs text-slate-400 flex-wrap">
+        <div class="flex items-center gap-2">
+          <i class="fa-solid fa-shield-halved text-emerald-400"></i>
+          <span>Compra 100% Segura na Amazon</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <i class="fa-solid fa-truck-fast text-sky-400"></i>
+          <span>Entrega Rápida no Brasil Todo</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <i class="fa-solid fa-badge-percent text-amber-400"></i>
+          <span>Até 50% de Desconto</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= NAVEGAÇÃO DE CATEGORIAS ================= -->
+  <section class="border-b border-slate-800/80 bg-slate-900/60 sticky top-20 z-30 backdrop-blur-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+      <div id="categories-container" class="flex items-center gap-2 overflow-x-auto hide-scrollbar pb-1">
+        <!-- Injetado dinamicamente via app.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTEÚDO PRINCIPAL: PRODUTOS & FILTROS ================= -->
+  <main class="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full">
+    
+    <!-- Barra de Filtros Rápidos & Ordenação -->
+    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6 pb-4 border-b border-slate-800">
+      
+      <!-- Filtros em botões -->
+      <div class="flex items-center gap-2 overflow-x-auto hide-scrollbar">
+        <button data-filter="all" onclick="setQuickFilter('all')" class="quick-filter-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-amber-500 text-slate-950 shadow">
+          Todos
+        </button>
+        <button data-filter="deals" onclick="setQuickFilter('deals')" class="quick-filter-btn px-3 py-1.5 rounded-lg text-xs font-medium bg-slate-800 text-slate-300 hover:bg-slate-700 border border-slate-700">
+          <i class="fa-solid fa-percent text-rose-500 mr-1"></i> Com Desconto
+        </button>
+        <button data-filter="prime" onclick="setQuickFilter('prime')" class="quick-filter-btn px-3 py-1.5 rounded-lg text-xs font-medium bg-slate-800 text-slate-300 hover:bg-slate-700 border border-slate-700">
+          <i class="fa-solid fa-check text-sky-400 mr-1"></i> Só Prime
+        </button>
+        <button data-filter="under100" onclick="setQuickFilter('under100')" class="quick-filter-btn px-3 py-1.5 rounded-lg text-xs font-medium bg-slate-800 text-slate-300 hover:bg-slate-700 border border-slate-700">
+          Até R$ 100
+        </button>
+        <button data-filter="toprated" onclick="setQuickFilter('toprated')" class="quick-filter-btn px-3 py-1.5 rounded-lg text-xs font-medium bg-slate-800 text-slate-300 hover:bg-slate-700 border border-slate-700">
+          <i class="fa-solid fa-star text-amber-400 mr-1"></i> 4.7+ Estrelas
+        </button>
+      </div>
+
+      <!-- Contador e Ordenação -->
+      <div class="flex items-center justify-between sm:justify-end gap-3 text-xs">
+        <span id="product-count" class="text-slate-400 font-medium">Carregando ofertas...</span>
+        
+        <div class="flex items-center gap-2">
+          <label for="sort-select" class="text-slate-400 hidden sm:inline">Ordenar:</label>
+          <select 
+            id="sort-select" 
+            class="bg-slate-800 text-slate-200 text-xs rounded-lg px-2.5 py-1.5 border border-slate-700 focus:outline-none focus:border-amber-400 cursor-pointer"
+          >
+            <option value="popular">Mais Populares</option>
+            <option value="discount">Maior Desconto</option>
+            <option value="price-asc">Menor Preço</option>
+            <option value="price-desc">Maior Preço</option>
+            <option value="rating">Melhor Avaliados</option>
+          </select>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Grid de Produtos -->
+    <div id="products-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <!-- Injetado dinamicamente via app.js -->
+    </div>
+
+  </main>
+
+  <!-- ================= BANNER DE CONVERSÃO / GRUPOS VIP ================= -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12 w-full">
+    <div class="bg-gradient-to-r from-emerald-900/60 via-slate-800 to-slate-800 border border-emerald-500/30 rounded-3xl p-6 sm:p-8 flex flex-col md:flex-row items-center justify-between gap-6 shadow-xl">
+      <div class="flex items-center gap-4">
+        <div class="w-14 h-14 rounded-2xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-3xl">
+          <i class="fa-brands fa-whatsapp"></i>
+        </div>
+        <div>
+          <h3 class="text-lg sm:text-xl font-bold text-white mb-1">
+            Quer receber ofertas relâmpago e cupons no celular?
+          </h3>
+          <p class="text-xs sm:text-sm text-slate-300">
+            Divulgue seu grupo de ofertas no WhatsApp ou Telegram para ganhar comissões todos os dias!
+          </p>
+        </div>
+      </div>
+      <button 
+        onclick="alert('Você pode personalizar o link do seu grupo VIP no WhatsApp ou canal do Telegram no código ou nas configurações!')" 
+        class="whitespace-nowrap px-6 py-3 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-extrabold text-sm shadow-lg shadow-emerald-500/20 transition-all active:scale-95 flex items-center gap-2"
+      >
+        <i class="fa-solid fa-bell"></i>
+        <span>Entrar no Grupo de Cupons</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER & COMPLIANCE AMAZON ================= -->
+  <footer class="bg-slate-900 border-t border-slate-800 py-10 px-4 sm:px-6 lg:px-8 text-xs text-slate-400">
+    <div class="max-w-7xl mx-auto space-y-6">
+      
+      <!-- Aviso Obrigatório de Afiliados Amazon (Compliance) -->
+      <div class="bg-slate-950/80 p-4 rounded-xl border border-slate-800/80 text-center leading-relaxed">
+        <p class="text-slate-300 font-semibold mb-1">
+          <i class="fa-solid fa-circle-info text-amber-400 mr-1"></i> Aviso Legal do Programa de Associados Amazon:
+        </p>
+        <p class="text-slate-400 text-[11px] max-w-4xl mx-auto">
+          "Como participante do Programa de Associados da Amazon, sou remunerado por compras qualificadas efetuadas através dos links disponibilizados nesta página." Os preços e a disponibilidade dos produtos estão corretos no momento da inclusão e podem sofrer alterações a qualquer momento pela Amazon Brasil.
+        </p>
+      </div>
+
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-4 pt-4 border-t border-slate-800/60">
+        <div class="flex items-center gap-2">
+          <span class="text-amber-400 font-bold">RADAR AMAZON</span>
+          <span>&copy; 2026 - Todos os direitos reservados.</span>
+        </div>
+        <div class="flex items-center gap-4">
+          <a href="#" onclick="openTagModal(); return false;" class="hover:text-amber-400 transition-colors">Configurar Tag de Afiliado</a>
+          <a href="#" onclick="exportCatalog(); return false;" class="hover:text-amber-400 transition-colors">Backup</a>
+          <a href="https://www.amazon.com.br" target="_blank" rel="noopener" class="hover:text-amber-400 transition-colors">Amazon Brasil</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ================= MODAL: CONFIGURAR TAG DE AFILIADO ================= -->
+  <div id="tag-modal" class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+    <div class="bg-slate-900 border border-slate-700 rounded-2xl max-w-md w-full p-6 shadow-2xl relative">
+      <button onclick="closeTagModal()" class="absolute top-4 right-4 text-slate-400 hover:text-white text-lg">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div class="flex items-center gap-3 mb-4">
+        <div class="w-10 h-10 rounded-xl bg-amber-500/20 text-amber-400 flex items-center justify-center text-xl">
+          <i class="fa-solid fa-tags"></i>
+        </div>
+        <div>
+          <h3 class="text-base font-bold text-white">Sua Tag de Associado Amazon</h3>
+          <p class="text-xs text-slate-400">Garante que todas as vendas gerem comissão para você</p>
+        </div>
+      </div>
+
+      <div class="space-y-4">
+        <div>
+          <label class="block text-xs font-semibold text-slate-300 mb-1.5">ID de Associado da Amazon (Store ID / Tracking ID):</label>
+          <input 
+            type="text" 
+            id="modal-affiliate-tag-input"
+            placeholder="Exemplo: seuid-20 ou meucanal-20"
+            class="w-full bg-slate-800 text-sm text-slate-100 rounded-xl px-3.5 py-2.5 border border-slate-700 focus:border-amber-400 focus:outline-none font-mono"
+          />
+          <p class="text-[11px] text-slate-400 mt-1.5">
+            Você encontra essa tag no canto superior direito do portal do <a href="https://associados.amazon.com.br" target="_blank" class="text-amber-400 underline">Associados Amazon Brasil</a>. Geralmente termina com <strong>-20</strong>.
+          </p>
+        </div>
+
+        <div class="bg-slate-800/80 p-3.5 rounded-xl border border-slate-700/60 text-xs text-slate-300 space-y-1">
+          <p class="font-semibold text-emerald-400 flex items-center gap-1.5">
+            <i class="fa-solid fa-circle-check"></i> Aplicação Automática Instantânea:
+          </p>
+          <p class="text-[11px] text-slate-400">
+            Ao salvar, <strong>todos os botões "Ver na Amazon"</strong> e botões de compartilhamento serão atualizados automaticamente para usar a sua tag!
+          </p>
+        </div>
+
+        <div class="flex items-center justify-end gap-2 pt-2">
+          <button onclick="closeTagModal()" class="px-4 py-2 rounded-xl text-xs font-semibold text-slate-300 hover:bg-slate-800">
+            Cancelar
+          </button>
+          <button onclick="saveAffiliateTag()" class="px-5 py-2.5 rounded-xl text-xs font-bold bg-amber-500 hover:bg-amber-400 text-slate-950 shadow-md">
+            Salvar Tag de Afiliado
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= MODAL: ADICIONAR NOVO PRODUTO ================= -->
+  <div id="add-product-modal" class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+    <div class="bg-slate-900 border border-slate-700 rounded-2xl max-w-lg w-full p-6 shadow-2xl relative max-h-[90vh] overflow-y-auto">
+      <button onclick="closeAddProductModal()" class="absolute top-4 right-4 text-slate-400 hover:text-white text-lg">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div class="flex items-center gap-3 mb-4">
+        <div class="w-10 h-10 rounded-xl bg-amber-500/20 text-amber-400 flex items-center justify-center text-xl">
+          <i class="fa-solid fa-cart-plus"></i>
+        </div>
+        <div>
+          <h3 class="text-base font-bold text-white">Cadastrar Novo Produto</h3>
+          <p class="text-xs text-slate-400">Adicione ofertas rapidamente à sua vitrine</p>
+        </div>
+      </div>
+
+      <form id="add-product-form" onsubmit="handleAddProductSubmit(event)" class="space-y-4 text-xs">
+        
+        <!-- Busca Automática de Dados na Amazon -->
+        <div class="bg-amber-500/10 border border-amber-500/30 rounded-xl p-3.5 mb-4">
+          <label class="block font-bold text-amber-400 mb-1 flex items-center gap-1.5">
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+            <span>Importar Automaticamente da Amazon</span>
+          </label>
+          <div class="flex gap-2 mt-1.5">
+            <input 
+              type="text" 
+              id="fetch-amazon-input" 
+              placeholder="Cole o link ou ASIN (ex: https://www.amazon.com.br/dp/...)"
+              class="flex-1 bg-slate-800 text-slate-100 rounded-xl px-3 py-2 border border-slate-700 focus:border-amber-400 focus:outline-none font-mono text-[11px]"
+            />
+            <button 
+              type="button" 
+              id="btn-fetch-amazon"
+              onclick="fetchAmazonProductData()"
+              class="px-3.5 py-2 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold whitespace-nowrap flex items-center gap-1.5 transition-all shadow active:scale-95"
+            >
+              <i class="fa-solid fa-bolt"></i>
+              <span>Puxar Dados</span>
+            </button>
+          </div>
+          <p class="text-[10px] text-slate-400 mt-1.5">
+            Preenche o <strong>título real</strong>, <strong>foto oficial</strong>, <strong>preço atual</strong> e <strong>Prime</strong> automaticamente!
+          </p>
+        </div>
+
+        <div>
+          <label class="block font-semibold text-slate-300 mb-1">Título do Produto *</label>
+          <input 
+            type="text" 
+            id="new-prod-title" 
+            required 
+            placeholder="Ex: Fone de Ouvido Bluetooth Sem Fio..."
+            class="w-full bg-slate-800 text-slate-100 rounded-xl px-3 py-2 border border-slate-700 focus:border-amber-400 focus:outline-none"
+          />
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <div>
+            <label class="block font-semibold text-slate-300 mb-1">Categoria *</label>
+            <select 
+              id="new-prod-category" 
+              class="w-full bg-slate-800 text-slate-100 rounded-xl px-3 py-2 border border-slate-700 focus:border-amber-400 focus:outline-none"
+            >
+              <option value="casa-inteligente">Casa Inteligente & Alexa</option>
+              <option value="tecnologia">Tecnologia & Smartphones</option>
+              <option value="setup">Setup & Informática</option>
+              <option value="games">Games & Consoles</option>
+              <option value="livros-kindle">Livros & Kindle</option>
+              <option value="achadinhos">Achadinhos Virais</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="block font-semibold text-slate-300 mb-1">Selo / Badge (Opcional)</label>
+            <input 
+              type="text" 
+              id="new-prod-badge" 
+              placeholder="Ex: Mais Vendido, -30% OFF, Viral"
+              class="w-full bg-slate-800 text-slate-100 rounded-xl px-3 py-2 border border-slate-700 focus:border-amber-400 focus:outline-none"
+            />
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="block font-semibold text-slate-300 mb-1">Preço Atual (R$) *</label>
+            <input 
+              type="number" 
+              id="new-prod-price" 
+              step="0.01" 
+              required 
+              placeholder="199.90"
+              class="w-full bg-slate-800 text-slate-100 rounded-xl px-3 py-2 border border-slate-700 focus:border-amber-400 focus:outline-none font-mono"
+            />
+          </div>
+          <div>
+            <label class="block font-semibold text-slate-300 mb-1">Preço Original / De (R$)</label>
+            <input 
+              type="number" 
+              id="new-prod-original-price" 
+              step="0.01" 
+              placeholder="299.90"
+              class="w-full bg-slate-800 text-slate-100 rounded-xl px-3 py-2 border border-slate-700 focus:border-amber-400 focus:outline-none font-mono"
+            />
+          </div>
+        </div>
+
+        <div>
+          <label class="block font-semibold text-slate-300 mb-1">Link do Produto na Amazon *</label>
+          <input 
+            type="url" 
+            id="new-prod-url" 
+            required 
+            placeholder="https://www.amazon.com.br/dp/..."
+            class="w-full bg-slate-800 text-slate-100 rounded-xl px-3 py-2 border border-slate-700 focus:border-amber-400 focus:outline-none"
+          />
+          <p class="text-[10px] text-slate-400 mt-1">Sua tag de afiliado será injetada automaticamente.</p>
+        </div>
+
+        <div>
+          <label class="block font-semibold text-slate-300 mb-1">URL da Imagem *</label>
+          <input 
+            type="url" 
+            id="new-prod-image" 
+            required 
+            placeholder="https://m.media-amazon.com/images/I/..."
+            class="w-full bg-slate-800 text-slate-100 rounded-xl px-3 py-2 border border-slate-700 focus:border-amber-400 focus:outline-none"
+          />
+          <p class="text-[10px] text-slate-400 mt-1">Dica: Clique com botão direito na foto do produto na Amazon e escolha 'Copiar endereço da imagem'.</p>
+        </div>
+
+        <div class="flex items-center gap-2 pt-1">
+          <input type="checkbox" id="new-prod-prime" checked class="w-4 h-4 text-amber-500 rounded bg-slate-800 border-slate-700 focus:ring-amber-400">
+          <label for="new-prod-prime" class="text-xs text-slate-300 cursor-pointer">
+            Tem Frete Grátis com <strong>Amazon Prime</strong>
+          </label>
+        </div>
+
+        <div class="flex items-center justify-end gap-2 pt-4 border-t border-slate-800">
+          <button type="button" onclick="closeAddProductModal()" class="px-4 py-2 rounded-xl text-slate-300 hover:bg-slate-800 font-semibold">
+            Cancelar
+          </button>
+          <button type="submit" class="px-5 py-2.5 rounded-xl font-bold bg-amber-500 hover:bg-amber-400 text-slate-950 shadow-md">
+            Adicionar à Vitrine
+          </button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+  <!-- ================= CONTAINER DE TOASTS NOTIFICAÇÕES ================= -->
+  <div id="toast-container" class="fixed bottom-5 right-5 z-50 flex flex-col gap-2 max-w-sm pointer-events-none">
+    <!-- Injetado dinamicamente via showToast() -->
+  </div>
+
+  <!-- Scripts -->
+  <script src="products.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
