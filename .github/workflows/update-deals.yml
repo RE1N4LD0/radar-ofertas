@@ -1,0 +1,28 @@
+name: Atualização Automática de Ofertas Amazon
+on:
+  schedule:
+    # Roda automaticamente a cada 12 horas na nuvem
+    - cron: '0 */12 * * *'
+  # Permite você rodar manualmente quando quiser
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  sync-amazon-deals:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar código do repositório
+        uses: actions/checkout@v4
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Sincronizar preços e fotos reais da Amazon
+        run: |
+          python update_deals.py
+      - name: Salvar e publicar catálogo atualizado
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Robô de Ofertas Amazon"
+          git add products.js
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-sync: Preços e ofertas da Amazon atualizados [skip ci]" && git push)
