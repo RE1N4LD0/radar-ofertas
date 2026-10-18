@@ -12,7 +12,7 @@ const STORAGE_KEYS = {
 
 // Estado Global da Aplicação
 const AppState = {
-  affiliateTag: localStorage.getItem(STORAGE_KEYS.TAG) || "suatag-20",
+  affiliateTag: localStorage.getItem(STORAGE_KEYS.TAG) || "radar01ce-20",
   storeName: localStorage.getItem(STORAGE_KEYS.STORE_NAME) || "Radar de Ofertas Amazon",
   products: [],
   currentCategory: "all",
