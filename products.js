@@ -1,9 +1,9 @@
 /**
  * Catálogo Oficial Sincronizado Automaticamente com a Amazon Brasil
- * Última atualização automática: 18/10/2026 às 15:43
+ * Última atualização automática: 19/10/2026 às 04:17
  */
 
-const LAST_CATALOG_SYNC = "Sincronizado em 18/10/2026 às 15:43";
+const LAST_CATALOG_SYNC = "Sincronizado em 19/10/2026 às 04:17";
 
 const INITIAL_PRODUCTS = [
   {
@@ -190,7 +190,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Setup & PC",
     "image": "https://m.media-amazon.com/images/I/51--g83VecL._AC_SY355_.jpg",
     "originalPrice": 1499.0,
-    "price": 341.16,
+    "price": 1252.08,
     "rating": 4.0,
     "reviewsCount": 8400,
     "isPrime": true,
@@ -206,7 +206,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Setup & PC",
     "image": "https://m.media-amazon.com/images/I/61gzapgXyuL._AC_SY355_.jpg",
     "originalPrice": 499.9,
-    "price": 246.04,
+    "price": 233.1,
     "rating": 4.9,
     "reviewsCount": 32800,
     "isPrime": true,
