@@ -1,9 +1,9 @@
 /**
  * Catálogo Oficial Sincronizado Automaticamente com a Amazon Brasil
- * Última atualização automática: 19/10/2026 às 04:17
+ * Última atualização automática: 19/10/2026 às 18:38
  */
 
-const LAST_CATALOG_SYNC = "Sincronizado em 19/10/2026 às 04:17";
+const LAST_CATALOG_SYNC = "Sincronizado em 19/10/2026 às 18:38";
 
 const INITIAL_PRODUCTS = [
   {
@@ -14,7 +14,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Casa Inteligente",
     "image": "https://m.media-amazon.com/images/I/51sXUs-tZiL._AC_SY355_.jpg",
     "originalPrice": 69.9,
-    "price": 47.99,
+    "price": 77.9,
     "rating": 4.7,
     "reviewsCount": 18400,
     "isPrime": true,
@@ -142,8 +142,8 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Tecnologia",
     "image": "https://m.media-amazon.com/images/I/61sJenYVxrL._AC_SX342_.jpg",
     "originalPrice": 299.0,
-    "price": 258.98,
-    "rating": 4.5,
+    "price": 284.05,
+    "rating": 3.6,
     "reviewsCount": 5120,
     "isPrime": true,
     "badge": "Power Bank",
@@ -157,8 +157,8 @@ const INITIAL_PRODUCTS = [
     "category": "tecnologia",
     "categoryName": "Tecnologia",
     "image": "https://m.media-amazon.com/images/I/512PNKi1KAL._AC_SY355_.jpg",
-    "originalPrice": 119.0,
-    "price": 119.0,
+    "originalPrice": 115.0,
+    "price": 109.25,
     "rating": 4.6,
     "reviewsCount": 4200,
     "isPrime": true,
@@ -190,7 +190,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Setup & PC",
     "image": "https://m.media-amazon.com/images/I/51--g83VecL._AC_SY355_.jpg",
     "originalPrice": 1499.0,
-    "price": 1252.08,
+    "price": 341.16,
     "rating": 4.0,
     "reviewsCount": 8400,
     "isPrime": true,
