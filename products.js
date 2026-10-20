@@ -1,9 +1,9 @@
 /**
  * Catálogo Oficial Sincronizado Automaticamente com a Amazon Brasil
- * Última atualização automática: 19/10/2026 às 18:38
+ * Última atualização automática: 20/10/2026 às 04:28
  */
 
-const LAST_CATALOG_SYNC = "Sincronizado em 19/10/2026 às 18:38";
+const LAST_CATALOG_SYNC = "Sincronizado em 20/10/2026 às 04:28";
 
 const INITIAL_PRODUCTS = [
   {
@@ -14,7 +14,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Casa Inteligente",
     "image": "https://m.media-amazon.com/images/I/51sXUs-tZiL._AC_SY355_.jpg",
     "originalPrice": 69.9,
-    "price": 77.9,
+    "price": 47.99,
     "rating": 4.7,
     "reviewsCount": 18400,
     "isPrime": true,
@@ -142,8 +142,8 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Tecnologia",
     "image": "https://m.media-amazon.com/images/I/61sJenYVxrL._AC_SX342_.jpg",
     "originalPrice": 299.0,
-    "price": 284.05,
-    "rating": 3.6,
+    "price": 258.98,
+    "rating": 4.5,
     "reviewsCount": 5120,
     "isPrime": true,
     "badge": "Power Bank",
@@ -158,7 +158,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Tecnologia",
     "image": "https://m.media-amazon.com/images/I/512PNKi1KAL._AC_SY355_.jpg",
     "originalPrice": 115.0,
-    "price": 109.25,
+    "price": 115.0,
     "rating": 4.6,
     "reviewsCount": 4200,
     "isPrime": true,
@@ -174,7 +174,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Setup & PC",
     "image": "https://m.media-amazon.com/images/I/615c1OkxYwL._AC_SS115_.jpg",
     "originalPrice": 699.0,
-    "price": 449.9,
+    "price": 537.0,
     "rating": 4.6,
     "reviewsCount": 18700,
     "isPrime": true,
@@ -201,18 +201,18 @@ const INITIAL_PRODUCTS = [
   {
     "id": "prod-B0765KZDWP",
     "asin": "B0765KZDWP",
-    "title": "ELG, F160N, Suporte Articulado de Mesa com Pistão a Gás e Ajuste de Altura, 2 Monitores de 17” a 35”, Com Organizador de Cabos, Capacidade de 2kg a 9kg, Preto",
+    "title": "ELG Suporte Articulado para 2 Monitores 17 a 35 Polegadas Pistão a Gás",
     "category": "setup",
     "categoryName": "Setup & PC",
     "image": "https://m.media-amazon.com/images/I/61gzapgXyuL._AC_SY355_.jpg",
     "originalPrice": 499.9,
-    "price": 233.1,
+    "price": 227.52,
     "rating": 4.9,
     "reviewsCount": 32800,
     "isPrime": true,
     "badge": "Ergonomia",
     "amazonUrl": "https://www.amazon.com.br/dp/B0765KZDWP",
-    "description": "ELG, F160N, Suporte Articulado de Mesa com Pistão a Gás e Ajuste de Altura, 2 Monitores de 17” a 35”, Com Organizador de Cabos, Capacidade de 2kg a 9kg, Preto"
+    "description": "ELG Suporte Articulado para 2 Monitores 17 a 35 Polegadas Pistão a Gás"
   },
   {
     "id": "prod-B0C7GW9F88",
