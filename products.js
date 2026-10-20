@@ -1,9 +1,9 @@
 /**
  * Catálogo Oficial Sincronizado Automaticamente com a Amazon Brasil
- * Última atualização automática: 20/10/2026 às 04:28
+ * Última atualização automática: 20/10/2026 às 16:44
  */
 
-const LAST_CATALOG_SYNC = "Sincronizado em 20/10/2026 às 04:28";
+const LAST_CATALOG_SYNC = "Sincronizado em 20/10/2026 às 16:44";
 
 const INITIAL_PRODUCTS = [
   {
@@ -14,7 +14,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Casa Inteligente",
     "image": "https://m.media-amazon.com/images/I/51sXUs-tZiL._AC_SY355_.jpg",
     "originalPrice": 69.9,
-    "price": 47.99,
+    "price": 77.9,
     "rating": 4.7,
     "reviewsCount": 18400,
     "isPrime": true,
@@ -94,8 +94,8 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Setup & PC",
     "image": "https://m.media-amazon.com/images/I/61aIuJu0M0L._AC_SY355_.jpg",
     "originalPrice": 1199.0,
-    "price": 779.0,
-    "rating": 4.8,
+    "price": 733.51,
+    "rating": 5.0,
     "reviewsCount": 24363,
     "isPrime": true,
     "badge": "Top Gamer",
@@ -110,7 +110,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Tecnologia",
     "image": "https://m.media-amazon.com/images/I/61nBzdfoI9L._AC_SY355_.jpg",
     "originalPrice": 123.0,
-    "price": 119.0,
+    "price": 123.0,
     "rating": 4.3,
     "reviewsCount": 2989,
     "isPrime": true,
@@ -126,7 +126,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Tecnologia",
     "image": "https://m.media-amazon.com/images/I/61zm6pi9ziL._AC_SY355_.jpg",
     "originalPrice": 5999.0,
-    "price": 3697.9,
+    "price": 3599.0,
     "rating": 4.8,
     "reviewsCount": 2989,
     "isPrime": true,
@@ -142,7 +142,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Tecnologia",
     "image": "https://m.media-amazon.com/images/I/61sJenYVxrL._AC_SX342_.jpg",
     "originalPrice": 299.0,
-    "price": 258.98,
+    "price": 299.0,
     "rating": 4.5,
     "reviewsCount": 5120,
     "isPrime": true,
@@ -158,7 +158,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Tecnologia",
     "image": "https://m.media-amazon.com/images/I/512PNKi1KAL._AC_SY355_.jpg",
     "originalPrice": 115.0,
-    "price": 115.0,
+    "price": 109.25,
     "rating": 4.6,
     "reviewsCount": 4200,
     "isPrime": true,
@@ -201,18 +201,18 @@ const INITIAL_PRODUCTS = [
   {
     "id": "prod-B0765KZDWP",
     "asin": "B0765KZDWP",
-    "title": "ELG Suporte Articulado para 2 Monitores 17 a 35 Polegadas Pistão a Gás",
+    "title": "ELG, F160N, Suporte Articulado de Mesa com Pistão a Gás e Ajuste de Altura, 2 Monitores de 17” a 35”, Com Organizador de Cabos, Capacidade de 2kg a 9kg, Preto",
     "category": "setup",
     "categoryName": "Setup & PC",
     "image": "https://m.media-amazon.com/images/I/61gzapgXyuL._AC_SY355_.jpg",
     "originalPrice": 499.9,
-    "price": 227.52,
+    "price": 233.1,
     "rating": 4.9,
     "reviewsCount": 32800,
     "isPrime": true,
     "badge": "Ergonomia",
     "amazonUrl": "https://www.amazon.com.br/dp/B0765KZDWP",
-    "description": "ELG Suporte Articulado para 2 Monitores 17 a 35 Polegadas Pistão a Gás"
+    "description": "ELG, F160N, Suporte Articulado de Mesa com Pistão a Gás e Ajuste de Altura, 2 Monitores de 17” a 35”, Com Organizador de Cabos, Capacidade de 2kg a 9kg, Preto"
   },
   {
     "id": "prod-B0C7GW9F88",
@@ -222,7 +222,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Games",
     "image": "https://m.media-amazon.com/images/I/51iXILIT27L._AC_SX342_.jpg",
     "originalPrice": 324.0,
-    "price": 145.27,
+    "price": 399.0,
     "rating": 4.8,
     "reviewsCount": 14500,
     "isPrime": true,
@@ -254,8 +254,8 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Games",
     "image": "https://m.media-amazon.com/images/I/51SbkFRJdwL._AC_SX342_.jpg",
     "originalPrice": 69.9,
-    "price": 47.47,
-    "rating": 4.7,
+    "price": 66.47,
+    "rating": 5.0,
     "reviewsCount": 3800,
     "isPrime": true,
     "badge": "Acessório PS5",
@@ -318,7 +318,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Achadinhos & Estilo",
     "image": "https://m.media-amazon.com/images/I/61IUyaJvKIL._AC_SY355_.jpg",
     "originalPrice": 59.9,
-    "price": 49.9,
+    "price": 41.9,
     "rating": 4.8,
     "reviewsCount": 14200,
     "isPrime": true,
@@ -334,7 +334,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Achadinhos & Estilo",
     "image": "https://m.media-amazon.com/images/I/51MnEf3yzmL._AC_SY355_.jpg",
     "originalPrice": 729.0,
-    "price": 535.9,
+    "price": 514.68,
     "rating": 4.6,
     "reviewsCount": 9800,
     "isPrime": true,
