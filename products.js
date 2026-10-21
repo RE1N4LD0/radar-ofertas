@@ -1,9 +1,9 @@
 /**
  * Catálogo Oficial Sincronizado Automaticamente com a Amazon Brasil
- * Última atualização automática: 21/10/2026 às 04:20
+ * Última atualização automática: 21/10/2026 às 17:01
  */
 
-const LAST_CATALOG_SYNC = "Sincronizado em 21/10/2026 às 04:20";
+const LAST_CATALOG_SYNC = "Sincronizado em 21/10/2026 às 17:01";
 
 const INITIAL_PRODUCTS = [
   {
@@ -14,7 +14,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Casa Inteligente",
     "image": "https://m.media-amazon.com/images/I/51sXUs-tZiL._AC_SY355_.jpg",
     "originalPrice": 70.11,
-    "price": 65.91,
+    "price": 65.62,
     "rating": 4.7,
     "reviewsCount": 18400,
     "isPrime": true,
@@ -62,8 +62,8 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Casa & Eletro",
     "image": "https://m.media-amazon.com/images/I/716GA5MQQkL._AC_SY355_.jpg",
     "originalPrice": 549.9,
-    "price": 305.66,
-    "rating": 4.3,
+    "price": 350.9,
+    "rating": 4.5,
     "reviewsCount": 16700,
     "isPrime": true,
     "badge": "Robô Limpeza",
@@ -78,8 +78,8 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Casa & Eletro",
     "image": "https://m.media-amazon.com/images/I/71DEK6jSqGL._AC_SY355_.jpg",
     "originalPrice": 99.9,
-    "price": 56.02,
-    "rating": 4.6,
+    "price": 60.99,
+    "rating": 4.2,
     "reviewsCount": 6666,
     "isPrime": true,
     "badge": "Cozinha",
@@ -109,8 +109,8 @@ const INITIAL_PRODUCTS = [
     "category": "tecnologia",
     "categoryName": "Tecnologia",
     "image": "https://m.media-amazon.com/images/I/61nBzdfoI9L._AC_SY355_.jpg",
-    "originalPrice": 123.0,
-    "price": 123.0,
+    "originalPrice": 99.99,
+    "price": 94.99,
     "rating": 4.3,
     "reviewsCount": 2989,
     "isPrime": true,
