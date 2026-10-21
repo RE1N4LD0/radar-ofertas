@@ -1,9 +1,9 @@
 /**
  * Catálogo Oficial Sincronizado Automaticamente com a Amazon Brasil
- * Última atualização automática: 20/10/2026 às 16:44
+ * Última atualização automática: 21/10/2026 às 04:20
  */
 
-const LAST_CATALOG_SYNC = "Sincronizado em 20/10/2026 às 16:44";
+const LAST_CATALOG_SYNC = "Sincronizado em 21/10/2026 às 04:20";
 
 const INITIAL_PRODUCTS = [
   {
@@ -13,8 +13,8 @@ const INITIAL_PRODUCTS = [
     "category": "casa-inteligente",
     "categoryName": "Casa Inteligente",
     "image": "https://m.media-amazon.com/images/I/51sXUs-tZiL._AC_SY355_.jpg",
-    "originalPrice": 69.9,
-    "price": 77.9,
+    "originalPrice": 70.11,
+    "price": 65.91,
     "rating": 4.7,
     "reviewsCount": 18400,
     "isPrime": true,
@@ -30,7 +30,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Casa Inteligente",
     "image": "https://m.media-amazon.com/images/I/61evEYmxBZL._AC_SY355_.jpg",
     "originalPrice": 429.0,
-    "price": 349.0,
+    "price": 649.0,
     "rating": 4.8,
     "reviewsCount": 42100,
     "isPrime": true,
@@ -62,7 +62,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Casa & Eletro",
     "image": "https://m.media-amazon.com/images/I/716GA5MQQkL._AC_SY355_.jpg",
     "originalPrice": 549.9,
-    "price": 297.59,
+    "price": 305.66,
     "rating": 4.3,
     "reviewsCount": 16700,
     "isPrime": true,
@@ -94,8 +94,8 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Setup & PC",
     "image": "https://m.media-amazon.com/images/I/61aIuJu0M0L._AC_SY355_.jpg",
     "originalPrice": 1199.0,
-    "price": 733.51,
-    "rating": 5.0,
+    "price": 796.28,
+    "rating": 4.8,
     "reviewsCount": 24363,
     "isPrime": true,
     "badge": "Top Gamer",
@@ -158,7 +158,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Tecnologia",
     "image": "https://m.media-amazon.com/images/I/512PNKi1KAL._AC_SY355_.jpg",
     "originalPrice": 115.0,
-    "price": 109.25,
+    "price": 115.0,
     "rating": 4.6,
     "reviewsCount": 4200,
     "isPrime": true,
@@ -201,18 +201,18 @@ const INITIAL_PRODUCTS = [
   {
     "id": "prod-B0765KZDWP",
     "asin": "B0765KZDWP",
-    "title": "ELG, F160N, Suporte Articulado de Mesa com Pistão a Gás e Ajuste de Altura, 2 Monitores de 17” a 35”, Com Organizador de Cabos, Capacidade de 2kg a 9kg, Preto",
+    "title": "ELG Suporte Articulado para 2 Monitores 17 a 35 Polegadas Pistão a Gás",
     "category": "setup",
     "categoryName": "Setup & PC",
     "image": "https://m.media-amazon.com/images/I/61gzapgXyuL._AC_SY355_.jpg",
     "originalPrice": 499.9,
-    "price": 233.1,
+    "price": 209.13,
     "rating": 4.9,
     "reviewsCount": 32800,
     "isPrime": true,
     "badge": "Ergonomia",
     "amazonUrl": "https://www.amazon.com.br/dp/B0765KZDWP",
-    "description": "ELG, F160N, Suporte Articulado de Mesa com Pistão a Gás e Ajuste de Altura, 2 Monitores de 17” a 35”, Com Organizador de Cabos, Capacidade de 2kg a 9kg, Preto"
+    "description": "ELG Suporte Articulado para 2 Monitores 17 a 35 Polegadas Pistão a Gás"
   },
   {
     "id": "prod-B0C7GW9F88",
@@ -254,7 +254,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Games",
     "image": "https://m.media-amazon.com/images/I/51SbkFRJdwL._AC_SX342_.jpg",
     "originalPrice": 69.9,
-    "price": 66.47,
+    "price": 46.9,
     "rating": 5.0,
     "reviewsCount": 3800,
     "isPrime": true,
@@ -302,7 +302,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Livros & Kindle",
     "image": "https://m.media-amazon.com/images/I/71V4lNR2gKL._SY342_.jpg",
     "originalPrice": 79.9,
-    "price": 46.43,
+    "price": 39.5,
     "rating": 4.9,
     "reviewsCount": 46000,
     "isPrime": true,
@@ -318,7 +318,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Achadinhos & Estilo",
     "image": "https://m.media-amazon.com/images/I/61IUyaJvKIL._AC_SY355_.jpg",
     "originalPrice": 59.9,
-    "price": 41.9,
+    "price": 38.86,
     "rating": 4.8,
     "reviewsCount": 14200,
     "isPrime": true,
