@@ -1,9 +1,9 @@
 /**
  * Catálogo Oficial Sincronizado Automaticamente com a Amazon Brasil
- * Última atualização automática: 23/10/2026 às 04:24
+ * Última atualização automática: 23/10/2026 às 16:53
  */
 
-const LAST_CATALOG_SYNC = "Sincronizado em 23/10/2026 às 04:24";
+const LAST_CATALOG_SYNC = "Sincronizado em 23/10/2026 às 16:53";
 
 const INITIAL_PRODUCTS = [
   {
@@ -14,7 +14,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Casa Inteligente",
     "image": "https://m.media-amazon.com/images/I/51sXUs-tZiL._AC_SY355_.jpg",
     "originalPrice": 70.11,
-    "price": 65.62,
+    "price": 65.89,
     "rating": 4.7,
     "reviewsCount": 18400,
     "isPrime": true,
@@ -62,7 +62,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Casa & Eletro",
     "image": "https://m.media-amazon.com/images/I/716GA5MQQkL._AC_SY355_.jpg",
     "originalPrice": 549.9,
-    "price": 329.9,
+    "price": 350.91,
     "rating": 4.5,
     "reviewsCount": 16700,
     "isPrime": true,
@@ -94,7 +94,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Setup & PC",
     "image": "https://m.media-amazon.com/images/I/61aIuJu0M0L._AC_SY355_.jpg",
     "originalPrice": 1199.0,
-    "price": 715.84,
+    "price": 693.24,
     "rating": 5.0,
     "reviewsCount": 24363,
     "isPrime": true,
@@ -110,7 +110,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Tecnologia",
     "image": "https://m.media-amazon.com/images/I/61nBzdfoI9L._AC_SY355_.jpg",
     "originalPrice": 120.64,
-    "price": 114.49,
+    "price": 127.96,
     "rating": 5.0,
     "reviewsCount": 2989,
     "isPrime": true,
@@ -174,7 +174,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Setup & PC",
     "image": "https://m.media-amazon.com/images/I/615c1OkxYwL._AC_SS115_.jpg",
     "originalPrice": 699.0,
-    "price": 535.28,
+    "price": 536.2,
     "rating": 4.6,
     "reviewsCount": 18700,
     "isPrime": true,
@@ -189,8 +189,8 @@ const INITIAL_PRODUCTS = [
     "category": "setup",
     "categoryName": "Setup & PC",
     "image": "https://m.media-amazon.com/images/I/51--g83VecL._AC_SY355_.jpg",
-    "originalPrice": 1499.0,
-    "price": 1251.99,
+    "originalPrice": 29411.0,
+    "price": 1252.32,
     "rating": 4.0,
     "reviewsCount": 8400,
     "isPrime": true,
@@ -270,7 +270,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Livros & Kindle",
     "image": "https://m.media-amazon.com/images/I/714JQx5cAXL._AC_SY355_.jpg",
     "originalPrice": 899.0,
-    "price": 759.05,
+    "price": 649.0,
     "rating": 4.8,
     "reviewsCount": 18200,
     "isPrime": true,
@@ -286,7 +286,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Livros & Kindle",
     "image": "https://m.media-amazon.com/images/I/81eT2pjx4jL._SY342_.jpg",
     "originalPrice": 60.9,
-    "price": 40.47,
+    "price": 40.17,
     "rating": 4.8,
     "reviewsCount": 54000,
     "isPrime": true,
