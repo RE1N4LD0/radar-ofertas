@@ -1,9 +1,9 @@
 /**
  * Catálogo Oficial Sincronizado Automaticamente com a Amazon Brasil
- * Última atualização automática: 22/10/2026 às 17:01
+ * Última atualização automática: 23/10/2026 às 04:24
  */
 
-const LAST_CATALOG_SYNC = "Sincronizado em 22/10/2026 às 17:01";
+const LAST_CATALOG_SYNC = "Sincronizado em 23/10/2026 às 04:24";
 
 const INITIAL_PRODUCTS = [
   {
@@ -13,7 +13,7 @@ const INITIAL_PRODUCTS = [
     "category": "casa-inteligente",
     "categoryName": "Casa Inteligente",
     "image": "https://m.media-amazon.com/images/I/51sXUs-tZiL._AC_SY355_.jpg",
-    "originalPrice": 77.9,
+    "originalPrice": 70.11,
     "price": 65.62,
     "rating": 4.7,
     "reviewsCount": 18400,
@@ -109,9 +109,9 @@ const INITIAL_PRODUCTS = [
     "category": "tecnologia",
     "categoryName": "Tecnologia",
     "image": "https://m.media-amazon.com/images/I/61nBzdfoI9L._AC_SY355_.jpg",
-    "originalPrice": 99.99,
-    "price": 94.99,
-    "rating": 4.3,
+    "originalPrice": 120.64,
+    "price": 114.49,
+    "rating": 5.0,
     "reviewsCount": 2989,
     "isPrime": true,
     "badge": "Smartwatch",
@@ -206,7 +206,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Setup & PC",
     "image": "https://m.media-amazon.com/images/I/61gzapgXyuL._AC_SY355_.jpg",
     "originalPrice": 399.9,
-    "price": 227.52,
+    "price": 227.51,
     "rating": 4.9,
     "reviewsCount": 32800,
     "isPrime": true,
