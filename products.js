@@ -1,9 +1,9 @@
 /**
  * Catálogo Oficial Sincronizado Automaticamente com a Amazon Brasil
- * Última atualização automática: 24/10/2026 às 04:14
+ * Última atualização automática: 24/10/2026 às 15:46
  */
 
-const LAST_CATALOG_SYNC = "Sincronizado em 24/10/2026 às 04:14";
+const LAST_CATALOG_SYNC = "Sincronizado em 24/10/2026 às 15:46";
 
 const INITIAL_PRODUCTS = [
   {
@@ -174,7 +174,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Setup & PC",
     "image": "https://m.media-amazon.com/images/I/615c1OkxYwL._AC_SS115_.jpg",
     "originalPrice": 699.0,
-    "price": 536.2,
+    "price": 535.6,
     "rating": 4.6,
     "reviewsCount": 18700,
     "isPrime": true,
@@ -190,7 +190,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Setup & PC",
     "image": "https://m.media-amazon.com/images/I/51--g83VecL._AC_SY355_.jpg",
     "originalPrice": 29411.0,
-    "price": 1252.32,
+    "price": 1252.15,
     "rating": 4.0,
     "reviewsCount": 8400,
     "isPrime": true,
@@ -334,8 +334,8 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Achadinhos & Estilo",
     "image": "https://m.media-amazon.com/images/I/51MnEf3yzmL._AC_SY355_.jpg",
     "originalPrice": 699.9,
-    "price": 569.9,
-    "rating": 4.0,
+    "price": 609.0,
+    "rating": 2.5,
     "reviewsCount": 9800,
     "isPrime": true,
     "badge": "Cozinha Prática",
