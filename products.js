@@ -1,9 +1,9 @@
 /**
  * Catálogo Oficial Sincronizado Automaticamente com a Amazon Brasil
- * Última atualização automática: 25/10/2026 às 04:17
+ * Última atualização automática: 25/10/2026 às 15:57
  */
 
-const LAST_CATALOG_SYNC = "Sincronizado em 25/10/2026 às 04:17";
+const LAST_CATALOG_SYNC = "Sincronizado em 25/10/2026 às 15:57";
 
 const INITIAL_PRODUCTS = [
   {
@@ -253,9 +253,9 @@ const INITIAL_PRODUCTS = [
     "category": "games",
     "categoryName": "Games",
     "image": "https://m.media-amazon.com/images/I/51SbkFRJdwL._AC_SX342_.jpg",
-    "originalPrice": 69.9,
+    "originalPrice": 181.71,
     "price": 66.47,
-    "rating": 4.8,
+    "rating": 4.9,
     "reviewsCount": 3800,
     "isPrime": true,
     "badge": "Acessório PS5",
