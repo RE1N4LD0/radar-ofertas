@@ -1,9 +1,9 @@
 /**
  * Catálogo Oficial Sincronizado Automaticamente com a Amazon Brasil
- * Última atualização automática: 26/10/2026 às 04:21
+ * Última atualização automática: 26/10/2026 às 18:37
  */
 
-const LAST_CATALOG_SYNC = "Sincronizado em 26/10/2026 às 04:21";
+const LAST_CATALOG_SYNC = "Sincronizado em 26/10/2026 às 18:37";
 
 const INITIAL_PRODUCTS = [
   {
@@ -14,7 +14,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Casa Inteligente",
     "image": "https://m.media-amazon.com/images/I/51sXUs-tZiL._AC_SY355_.jpg",
     "originalPrice": 79.9,
-    "price": 77.9,
+    "price": 59.99,
     "rating": 4.7,
     "reviewsCount": 18400,
     "isPrime": true,
@@ -30,7 +30,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Casa Inteligente",
     "image": "https://m.media-amazon.com/images/I/61evEYmxBZL._AC_SY355_.jpg",
     "originalPrice": 429.0,
-    "price": 584.09,
+    "price": 584.1,
     "rating": 4.8,
     "reviewsCount": 42100,
     "isPrime": true,
@@ -94,7 +94,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Setup & PC",
     "image": "https://m.media-amazon.com/images/I/61aIuJu0M0L._AC_SY355_.jpg",
     "originalPrice": 1199.0,
-    "price": 714.89,
+    "price": 693.23,
     "rating": 5.0,
     "reviewsCount": 24363,
     "isPrime": true,
@@ -126,7 +126,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Tecnologia",
     "image": "https://m.media-amazon.com/images/I/61zm6pi9ziL._AC_SY355_.jpg",
     "originalPrice": 5999.0,
-    "price": 3328.11,
+    "price": 3495.05,
     "rating": 4.8,
     "reviewsCount": 2989,
     "isPrime": true,
@@ -174,7 +174,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Setup & PC",
     "image": "https://m.media-amazon.com/images/I/615c1OkxYwL._AC_SS115_.jpg",
     "originalPrice": 699.0,
-    "price": 538.23,
+    "price": 521.9,
     "rating": 4.6,
     "reviewsCount": 18700,
     "isPrime": true,
@@ -190,7 +190,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Setup & PC",
     "image": "https://m.media-amazon.com/images/I/51--g83VecL._AC_SY355_.jpg",
     "originalPrice": 29411.0,
-    "price": 1252.15,
+    "price": 1252.06,
     "rating": 4.0,
     "reviewsCount": 8400,
     "isPrime": true,
@@ -334,8 +334,8 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Achadinhos & Estilo",
     "image": "https://m.media-amazon.com/images/I/51MnEf3yzmL._AC_SY355_.jpg",
     "originalPrice": 699.9,
-    "price": 569.9,
-    "rating": 4.0,
+    "price": 609.0,
+    "rating": 2.5,
     "reviewsCount": 9800,
     "isPrime": true,
     "badge": "Cozinha Prática",
