@@ -1,9 +1,9 @@
 /**
  * Catálogo Oficial Sincronizado Automaticamente com a Amazon Brasil
- * Última atualização automática: 25/10/2026 às 15:57
+ * Última atualização automática: 26/10/2026 às 04:21
  */
 
-const LAST_CATALOG_SYNC = "Sincronizado em 25/10/2026 às 15:57";
+const LAST_CATALOG_SYNC = "Sincronizado em 26/10/2026 às 04:21";
 
 const INITIAL_PRODUCTS = [
   {
@@ -30,7 +30,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Casa Inteligente",
     "image": "https://m.media-amazon.com/images/I/61evEYmxBZL._AC_SY355_.jpg",
     "originalPrice": 429.0,
-    "price": 649.0,
+    "price": 584.09,
     "rating": 4.8,
     "reviewsCount": 42100,
     "isPrime": true,
@@ -94,7 +94,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Setup & PC",
     "image": "https://m.media-amazon.com/images/I/61aIuJu0M0L._AC_SY355_.jpg",
     "originalPrice": 1199.0,
-    "price": 693.24,
+    "price": 714.89,
     "rating": 5.0,
     "reviewsCount": 24363,
     "isPrime": true,
@@ -174,7 +174,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Setup & PC",
     "image": "https://m.media-amazon.com/images/I/615c1OkxYwL._AC_SS115_.jpg",
     "originalPrice": 699.0,
-    "price": 535.56,
+    "price": 538.23,
     "rating": 4.6,
     "reviewsCount": 18700,
     "isPrime": true,
