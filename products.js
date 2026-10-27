@@ -1,9 +1,9 @@
 /**
  * Catálogo Oficial Sincronizado Automaticamente com a Amazon Brasil
- * Última atualização automática: 26/10/2026 às 18:37
+ * Última atualização automática: 27/10/2026 às 04:40
  */
 
-const LAST_CATALOG_SYNC = "Sincronizado em 26/10/2026 às 18:37";
+const LAST_CATALOG_SYNC = "Sincronizado em 27/10/2026 às 04:40";
 
 const INITIAL_PRODUCTS = [
   {
@@ -78,7 +78,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Casa & Eletro",
     "image": "https://m.media-amazon.com/images/I/71DEK6jSqGL._AC_SY355_.jpg",
     "originalPrice": 99.9,
-    "price": 60.99,
+    "price": 59.99,
     "rating": 4.2,
     "reviewsCount": 6666,
     "isPrime": true,
@@ -94,7 +94,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Setup & PC",
     "image": "https://m.media-amazon.com/images/I/61aIuJu0M0L._AC_SY355_.jpg",
     "originalPrice": 1199.0,
-    "price": 693.23,
+    "price": 714.89,
     "rating": 5.0,
     "reviewsCount": 24363,
     "isPrime": true,
@@ -174,7 +174,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Setup & PC",
     "image": "https://m.media-amazon.com/images/I/615c1OkxYwL._AC_SS115_.jpg",
     "originalPrice": 699.0,
-    "price": 521.9,
+    "price": 539.91,
     "rating": 4.6,
     "reviewsCount": 18700,
     "isPrime": true,
@@ -334,7 +334,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Achadinhos & Estilo",
     "image": "https://m.media-amazon.com/images/I/51MnEf3yzmL._AC_SY355_.jpg",
     "originalPrice": 699.9,
-    "price": 609.0,
+    "price": 548.1,
     "rating": 2.5,
     "reviewsCount": 9800,
     "isPrime": true,
