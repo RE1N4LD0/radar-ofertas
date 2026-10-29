@@ -1,9 +1,9 @@
 /**
  * Catálogo Oficial Sincronizado Automaticamente com a Amazon Brasil
- * Última atualização automática: 28/10/2026 às 18:15
+ * Última atualização automática: 29/10/2026 às 05:25
  */
 
-const LAST_CATALOG_SYNC = "Sincronizado em 28/10/2026 às 18:15";
+const LAST_CATALOG_SYNC = "Sincronizado em 29/10/2026 às 05:25";
 
 const INITIAL_PRODUCTS = [
   {
@@ -94,7 +94,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Setup & PC",
     "image": "https://m.media-amazon.com/images/I/61aIuJu0M0L._AC_SY355_.jpg",
     "originalPrice": 1199.0,
-    "price": 714.89,
+    "price": 718.15,
     "rating": 5.0,
     "reviewsCount": 24363,
     "isPrime": true,
