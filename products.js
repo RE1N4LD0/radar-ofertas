@@ -1,9 +1,9 @@
 /**
  * Catálogo Oficial Sincronizado Automaticamente com a Amazon Brasil
- * Última atualização automática: 29/10/2026 às 05:25
+ * Última atualização automática: 29/10/2026 às 18:21
  */
 
-const LAST_CATALOG_SYNC = "Sincronizado em 29/10/2026 às 05:25";
+const LAST_CATALOG_SYNC = "Sincronizado em 29/10/2026 às 18:21";
 
 const INITIAL_PRODUCTS = [
   {
@@ -14,7 +14,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Casa Inteligente",
     "image": "https://m.media-amazon.com/images/I/51sXUs-tZiL._AC_SY355_.jpg",
     "originalPrice": 79.9,
-    "price": 59.99,
+    "price": 77.9,
     "rating": 4.7,
     "reviewsCount": 18400,
     "isPrime": true,
@@ -25,18 +25,18 @@ const INITIAL_PRODUCTS = [
   {
     "id": "prod-B09B8VGCR8",
     "asin": "B09B8VGCR8",
-    "title": "Echo Dot (Geração mais recente) | Smart speaker com Alexa, som vibrante e potente, Wi-Fi e Bluetooth | Cor Preta, com Acesso Antecipado à Alexa+",
+    "title": "Echo Dot Smart speaker com Alexa, som vibrante e potente, Wi-Fi e Bluetooth | Cor Preta, com Acesso Antecipado à Alexa+",
     "category": "casa-inteligente",
     "categoryName": "Casa Inteligente",
     "image": "https://m.media-amazon.com/images/I/61evEYmxBZL._AC_SY355_.jpg",
     "originalPrice": 429.0,
-    "price": 584.11,
+    "price": 584.1,
     "rating": 4.8,
     "reviewsCount": 42100,
     "isPrime": true,
     "badge": "Dispositivo Amazon",
     "amazonUrl": "https://www.amazon.com.br/dp/B09B8VGCR8",
-    "description": "Echo Dot (Geração mais recente) | Smart speaker com Alexa, som vibrante e potente, Wi-Fi e Bluetooth | Cor Preta, com Acesso Antecipado à Alexa+"
+    "description": "Echo Dot Smart speaker com Alexa, som vibrante e potente, Wi-Fi e Bluetooth | Cor Preta, com Acesso Antecipado à Alexa+"
   },
   {
     "id": "prod-B0CQMT33WX",
@@ -94,7 +94,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Setup & PC",
     "image": "https://m.media-amazon.com/images/I/61aIuJu0M0L._AC_SY355_.jpg",
     "originalPrice": 1199.0,
-    "price": 718.15,
+    "price": 623.2,
     "rating": 5.0,
     "reviewsCount": 24363,
     "isPrime": true,
@@ -142,8 +142,8 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Tecnologia",
     "image": "https://m.media-amazon.com/images/I/61sJenYVxrL._AC_SX342_.jpg",
     "originalPrice": 299.0,
-    "price": 299.0,
-    "rating": 4.5,
+    "price": 246.03,
+    "rating": 3.6,
     "reviewsCount": 5120,
     "isPrime": true,
     "badge": "Power Bank",
@@ -174,7 +174,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Setup & PC",
     "image": "https://m.media-amazon.com/images/I/615c1OkxYwL._AC_SS115_.jpg",
     "originalPrice": 699.0,
-    "price": 539.91,
+    "price": 536.58,
     "rating": 4.6,
     "reviewsCount": 18700,
     "isPrime": true,
@@ -190,7 +190,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Setup & PC",
     "image": "https://m.media-amazon.com/images/I/51--g83VecL._AC_SY355_.jpg",
     "originalPrice": 29411.0,
-    "price": 1252.06,
+    "price": 1230.49,
     "rating": 4.0,
     "reviewsCount": 8400,
     "isPrime": true,
@@ -206,7 +206,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Setup & PC",
     "image": "https://m.media-amazon.com/images/I/61gzapgXyuL._AC_SY355_.jpg",
     "originalPrice": 399.9,
-    "price": 227.51,
+    "price": 218.87,
     "rating": 4.9,
     "reviewsCount": 32800,
     "isPrime": true,
@@ -253,7 +253,7 @@ const INITIAL_PRODUCTS = [
     "category": "games",
     "categoryName": "Games",
     "image": "https://m.media-amazon.com/images/I/51SbkFRJdwL._AC_SX342_.jpg",
-    "originalPrice": 181.71,
+    "originalPrice": 179.0,
     "price": 66.47,
     "rating": 4.9,
     "reviewsCount": 3800,
@@ -351,7 +351,7 @@ const INITIAL_PRODUCTS = [
     "image": "https://m.media-amazon.com/images/I/61hVSgGbu9L._AC_SY355_.jpg",
     "originalPrice": 35.0,
     "price": 19.47,
-    "rating": 3.0,
+    "rating": 3.4,
     "reviewsCount": 6100,
     "isPrime": true,
     "badge": "Organização",
