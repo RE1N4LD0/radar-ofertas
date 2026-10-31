@@ -1,9 +1,9 @@
 /**
  * Catálogo Oficial Sincronizado Automaticamente com a Amazon Brasil
- * Última atualização automática: 31/10/2026 às 05:08
+ * Última atualização automática: 31/10/2026 às 17:09
  */
 
-const LAST_CATALOG_SYNC = "Sincronizado em 31/10/2026 às 05:08";
+const LAST_CATALOG_SYNC = "Sincronizado em 31/10/2026 às 17:09";
 
 const INITIAL_PRODUCTS = [
   {
@@ -13,8 +13,8 @@ const INITIAL_PRODUCTS = [
     "category": "casa-inteligente",
     "categoryName": "Casa Inteligente",
     "image": "https://m.media-amazon.com/images/I/51sXUs-tZiL._AC_SY355_.jpg",
-    "originalPrice": 70.11,
-    "price": 65.89,
+    "originalPrice": 79.9,
+    "price": 77.9,
     "rating": 4.7,
     "reviewsCount": 18400,
     "isPrime": true,
@@ -30,7 +30,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Casa Inteligente",
     "image": "https://m.media-amazon.com/images/I/61evEYmxBZL._AC_SY355_.jpg",
     "originalPrice": 429.0,
-    "price": 584.11,
+    "price": 584.09,
     "rating": 4.8,
     "reviewsCount": 42100,
     "isPrime": true,
@@ -190,7 +190,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Setup & PC",
     "image": "https://m.media-amazon.com/images/I/51--g83VecL._AC_SY355_.jpg",
     "originalPrice": 29411.0,
-    "price": 1230.49,
+    "price": 1230.48,
     "rating": 4.0,
     "reviewsCount": 8400,
     "isPrime": true,
@@ -253,7 +253,7 @@ const INITIAL_PRODUCTS = [
     "category": "games",
     "categoryName": "Games",
     "image": "https://m.media-amazon.com/images/I/51SbkFRJdwL._AC_SX342_.jpg",
-    "originalPrice": 177.0,
+    "originalPrice": 186.9,
     "price": 66.47,
     "rating": 4.9,
     "reviewsCount": 3800,
