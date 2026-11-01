@@ -1,9 +1,9 @@
 /**
  * Catálogo Oficial Sincronizado Automaticamente com a Amazon Brasil
- * Última atualização automática: 31/10/2026 às 17:09
+ * Última atualização automática: 01/11/2026 às 05:39
  */
 
-const LAST_CATALOG_SYNC = "Sincronizado em 31/10/2026 às 17:09";
+const LAST_CATALOG_SYNC = "Sincronizado em 01/11/2026 às 05:39";
 
 const INITIAL_PRODUCTS = [
   {
@@ -13,8 +13,8 @@ const INITIAL_PRODUCTS = [
     "category": "casa-inteligente",
     "categoryName": "Casa Inteligente",
     "image": "https://m.media-amazon.com/images/I/51sXUs-tZiL._AC_SY355_.jpg",
-    "originalPrice": 79.9,
-    "price": 77.9,
+    "originalPrice": 70.11,
+    "price": 65.89,
     "rating": 4.7,
     "reviewsCount": 18400,
     "isPrime": true,
@@ -62,7 +62,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Casa & Eletro",
     "image": "https://m.media-amazon.com/images/I/716GA5MQQkL._AC_SY355_.jpg",
     "originalPrice": 549.9,
-    "price": 389.9,
+    "price": 331.41,
     "rating": 4.5,
     "reviewsCount": 16700,
     "isPrime": true,
@@ -78,7 +78,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Casa & Eletro",
     "image": "https://m.media-amazon.com/images/I/71DEK6jSqGL._AC_SY355_.jpg",
     "originalPrice": 99.9,
-    "price": 60.0,
+    "price": 59.43,
     "rating": 4.2,
     "reviewsCount": 6666,
     "isPrime": true,
@@ -206,7 +206,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Setup & PC",
     "image": "https://m.media-amazon.com/images/I/61gzapgXyuL._AC_SY355_.jpg",
     "originalPrice": 399.9,
-    "price": 218.87,
+    "price": 243.19,
     "rating": 4.9,
     "reviewsCount": 32800,
     "isPrime": true,
@@ -238,7 +238,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Games",
     "image": "https://m.media-amazon.com/images/I/81uxfmXpcwL._AC_SY355_.jpg",
     "originalPrice": 899.99,
-    "price": 675.54,
+    "price": 639.97,
     "rating": 5.0,
     "reviewsCount": 9800,
     "isPrime": true,
@@ -253,7 +253,7 @@ const INITIAL_PRODUCTS = [
     "category": "games",
     "categoryName": "Games",
     "image": "https://m.media-amazon.com/images/I/51SbkFRJdwL._AC_SX342_.jpg",
-    "originalPrice": 186.9,
+    "originalPrice": 179.0,
     "price": 66.47,
     "rating": 4.9,
     "reviewsCount": 3800,
@@ -270,7 +270,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Livros & Kindle",
     "image": "https://m.media-amazon.com/images/I/714JQx5cAXL._AC_SY355_.jpg",
     "originalPrice": 899.0,
-    "price": 759.05,
+    "price": 649.0,
     "rating": 4.8,
     "reviewsCount": 18200,
     "isPrime": true,
@@ -334,7 +334,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Achadinhos & Estilo",
     "image": "https://m.media-amazon.com/images/I/51MnEf3yzmL._AC_SY355_.jpg",
     "originalPrice": 699.9,
-    "price": 548.1,
+    "price": 609.0,
     "rating": 2.5,
     "reviewsCount": 9800,
     "isPrime": true,
