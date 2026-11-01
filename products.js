@@ -1,9 +1,9 @@
 /**
  * Catálogo Oficial Sincronizado Automaticamente com a Amazon Brasil
- * Última atualização automática: 01/11/2026 às 05:39
+ * Última atualização automática: 01/11/2026 às 17:51
  */
 
-const LAST_CATALOG_SYNC = "Sincronizado em 01/11/2026 às 05:39";
+const LAST_CATALOG_SYNC = "Sincronizado em 01/11/2026 às 17:51";
 
 const INITIAL_PRODUCTS = [
   {
