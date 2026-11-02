@@ -1,9 +1,9 @@
 /**
  * Catálogo Oficial Sincronizado Automaticamente com a Amazon Brasil
- * Última atualização automática: 02/11/2026 às 05:38
+ * Última atualização automática: 02/11/2026 às 21:39
  */
 
-const LAST_CATALOG_SYNC = "Sincronizado em 02/11/2026 às 05:38";
+const LAST_CATALOG_SYNC = "Sincronizado em 02/11/2026 às 21:39";
 
 const INITIAL_PRODUCTS = [
   {
@@ -30,7 +30,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Casa Inteligente",
     "image": "https://m.media-amazon.com/images/I/61evEYmxBZL._AC_SY355_.jpg",
     "originalPrice": 429.0,
-    "price": 584.1,
+    "price": 584.11,
     "rating": 4.8,
     "reviewsCount": 42100,
     "isPrime": true,
@@ -334,8 +334,8 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Achadinhos & Estilo",
     "image": "https://m.media-amazon.com/images/I/51MnEf3yzmL._AC_SY355_.jpg",
     "originalPrice": 699.9,
-    "price": 609.0,
-    "rating": 2.5,
+    "price": 569.9,
+    "rating": 4.0,
     "reviewsCount": 9800,
     "isPrime": true,
     "badge": "Cozinha Prática",
