@@ -1,9 +1,9 @@
 /**
  * Catálogo Oficial Sincronizado Automaticamente com a Amazon Brasil
- * Última atualização automática: 05/11/2026 às 06:14
+ * Última atualização automática: 05/11/2026 às 19:48
  */
 
-const LAST_CATALOG_SYNC = "Sincronizado em 05/11/2026 às 06:14";
+const LAST_CATALOG_SYNC = "Sincronizado em 05/11/2026 às 19:48";
 
 const INITIAL_PRODUCTS = [
   {
@@ -30,7 +30,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Casa Inteligente",
     "image": "https://m.media-amazon.com/images/I/61evEYmxBZL._AC_SY355_.jpg",
     "originalPrice": 429.0,
-    "price": 584.11,
+    "price": 584.09,
     "rating": 4.8,
     "reviewsCount": 42100,
     "isPrime": true,
