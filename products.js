@@ -1,9 +1,9 @@
 /**
  * Catálogo Oficial Sincronizado Automaticamente com a Amazon Brasil
- * Última atualização automática: 06/11/2026 às 06:08
+ * Última atualização automática: 06/11/2026 às 19:14
  */
 
-const LAST_CATALOG_SYNC = "Sincronizado em 06/11/2026 às 06:08";
+const LAST_CATALOG_SYNC = "Sincronizado em 06/11/2026 às 19:14";
 
 const INITIAL_PRODUCTS = [
   {
@@ -30,7 +30,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Casa Inteligente",
     "image": "https://m.media-amazon.com/images/I/61evEYmxBZL._AC_SY355_.jpg",
     "originalPrice": 429.0,
-    "price": 584.09,
+    "price": 649.0,
     "rating": 4.8,
     "reviewsCount": 42100,
     "isPrime": true,
@@ -94,7 +94,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Setup & PC",
     "image": "https://m.media-amazon.com/images/I/61aIuJu0M0L._AC_SY355_.jpg",
     "originalPrice": 1199.0,
-    "price": 739.1,
+    "price": 740.05,
     "rating": 5.0,
     "reviewsCount": 24363,
     "isPrime": true,
@@ -109,8 +109,8 @@ const INITIAL_PRODUCTS = [
     "category": "tecnologia",
     "categoryName": "Tecnologia",
     "image": "https://m.media-amazon.com/images/I/61nBzdfoI9L._AC_SY355_.jpg",
-    "originalPrice": 120.64,
-    "price": 127.96,
+    "originalPrice": 118.99,
+    "price": 113.04,
     "rating": 5.0,
     "reviewsCount": 2989,
     "isPrime": true,
@@ -189,9 +189,9 @@ const INITIAL_PRODUCTS = [
     "category": "setup",
     "categoryName": "Setup & PC",
     "image": "https://m.media-amazon.com/images/I/51--g83VecL._AC_SY355_.jpg",
-    "originalPrice": 29411.0,
+    "originalPrice": 1504.78,
     "price": 1230.48,
-    "rating": 4.0,
+    "rating": 4.8,
     "reviewsCount": 8400,
     "isPrime": true,
     "badge": "Teclado Gamer",
@@ -253,7 +253,7 @@ const INITIAL_PRODUCTS = [
     "category": "games",
     "categoryName": "Games",
     "image": "https://m.media-amazon.com/images/I/51SbkFRJdwL._AC_SX342_.jpg",
-    "originalPrice": 165.9,
+    "originalPrice": 177.0,
     "price": 66.47,
     "rating": 4.9,
     "reviewsCount": 3800,
@@ -286,7 +286,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Livros & Kindle",
     "image": "https://m.media-amazon.com/images/I/81eT2pjx4jL._SY342_.jpg",
     "originalPrice": 60.9,
-    "price": 34.01,
+    "price": 36.75,
     "rating": 4.8,
     "reviewsCount": 54000,
     "isPrime": true,
