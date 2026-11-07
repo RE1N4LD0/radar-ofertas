@@ -1,9 +1,9 @@
 /**
  * Catálogo Oficial Sincronizado Automaticamente com a Amazon Brasil
- * Última atualização automática: 07/11/2026 às 05:38
+ * Última atualização automática: 07/11/2026 às 17:41
  */
 
-const LAST_CATALOG_SYNC = "Sincronizado em 07/11/2026 às 05:38";
+const LAST_CATALOG_SYNC = "Sincronizado em 07/11/2026 às 17:41";
 
 const INITIAL_PRODUCTS = [
   {
@@ -190,7 +190,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Setup & PC",
     "image": "https://m.media-amazon.com/images/I/51--g83VecL._AC_SY355_.jpg",
     "originalPrice": 1504.78,
-    "price": 1230.48,
+    "price": 1229.84,
     "rating": 4.8,
     "reviewsCount": 8400,
     "isPrime": true,
