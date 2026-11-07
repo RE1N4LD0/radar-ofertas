@@ -1,9 +1,9 @@
 /**
  * Catálogo Oficial Sincronizado Automaticamente com a Amazon Brasil
- * Última atualização automática: 06/11/2026 às 19:14
+ * Última atualização automática: 07/11/2026 às 05:38
  */
 
-const LAST_CATALOG_SYNC = "Sincronizado em 06/11/2026 às 19:14";
+const LAST_CATALOG_SYNC = "Sincronizado em 07/11/2026 às 05:38";
 
 const INITIAL_PRODUCTS = [
   {
@@ -76,10 +76,10 @@ const INITIAL_PRODUCTS = [
     "title": "MONDIAL Espremedor Premium, Preto, 30W, 220V - E-02",
     "category": "casa-inteligente",
     "categoryName": "Casa & Eletro",
-    "image": "https://m.media-amazon.com/images/I/71DEK6jSqGL._AC_SY355_.jpg",
+    "image": "https://m.media-amazon.com/images/I/71eSaLy5sbL._AC_SS115_.jpg",
     "originalPrice": 99.9,
-    "price": 49.9,
-    "rating": 4.2,
+    "price": 50.92,
+    "rating": 4.5,
     "reviewsCount": 6666,
     "isPrime": true,
     "badge": "Cozinha",
