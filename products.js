@@ -1,9 +1,9 @@
 /**
  * Catálogo Oficial Sincronizado Automaticamente com a Amazon Brasil
- * Última atualização automática: 08/11/2026 às 05:41
+ * Última atualização automática: 08/11/2026 às 17:51
  */
 
-const LAST_CATALOG_SYNC = "Sincronizado em 08/11/2026 às 05:41";
+const LAST_CATALOG_SYNC = "Sincronizado em 08/11/2026 às 17:51";
 
 const INITIAL_PRODUCTS = [
   {
@@ -222,7 +222,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Games",
     "image": "https://m.media-amazon.com/images/I/51iXILIT27L._AC_SX342_.jpg",
     "originalPrice": 324.0,
-    "price": 149.9,
+    "price": 251.77,
     "rating": 4.8,
     "reviewsCount": 14500,
     "isPrime": true,
