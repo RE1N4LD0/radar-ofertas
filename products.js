@@ -1,9 +1,9 @@
 /**
  * Catálogo Oficial Sincronizado Automaticamente com a Amazon Brasil
- * Última atualização automática: 09/11/2026 às 22:13
+ * Última atualização automática: 10/11/2026 às 06:57
  */
 
-const LAST_CATALOG_SYNC = "Sincronizado em 09/11/2026 às 22:13";
+const LAST_CATALOG_SYNC = "Sincronizado em 10/11/2026 às 06:57";
 
 const INITIAL_PRODUCTS = [
   {
@@ -29,8 +29,8 @@ const INITIAL_PRODUCTS = [
     "category": "casa-inteligente",
     "categoryName": "Casa Inteligente",
     "image": "https://m.media-amazon.com/images/I/61evEYmxBZL._AC_SY355_.jpg",
-    "originalPrice": 429.0,
-    "price": 649.0,
+    "originalPrice": 649.0,
+    "price": 348.99,
     "rating": 4.8,
     "reviewsCount": 42100,
     "isPrime": true,
@@ -108,10 +108,10 @@ const INITIAL_PRODUCTS = [
     "title": "Haiz Smartwatch Relógio Inteligente IP67 44mm My Watch I Fit PRETO HZ-ZL02D",
     "category": "tecnologia",
     "categoryName": "Tecnologia",
-    "image": "https://m.media-amazon.com/images/I/61nBzdfoI9L._AC_SY355_.jpg",
+    "image": "https://m.media-amazon.com/images/I/719NSvj2fZL._AC_SS115_.jpg",
     "originalPrice": 134.7,
-    "price": 127.96,
-    "rating": 5.0,
+    "price": 139.9,
+    "rating": 4.4,
     "reviewsCount": 2989,
     "isPrime": true,
     "badge": "Smartwatch",
