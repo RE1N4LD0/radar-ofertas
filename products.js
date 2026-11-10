@@ -1,9 +1,9 @@
 /**
  * Catálogo Oficial Sincronizado Automaticamente com a Amazon Brasil
- * Última atualização automática: 10/11/2026 às 06:57
+ * Última atualização automática: 10/11/2026 às 19:35
  */
 
-const LAST_CATALOG_SYNC = "Sincronizado em 10/11/2026 às 06:57";
+const LAST_CATALOG_SYNC = "Sincronizado em 10/11/2026 às 19:35";
 
 const INITIAL_PRODUCTS = [
   {
@@ -30,7 +30,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Casa Inteligente",
     "image": "https://m.media-amazon.com/images/I/61evEYmxBZL._AC_SY355_.jpg",
     "originalPrice": 649.0,
-    "price": 348.99,
+    "price": 349.0,
     "rating": 4.8,
     "reviewsCount": 42100,
     "isPrime": true,
@@ -78,7 +78,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Casa & Eletro",
     "image": "https://m.media-amazon.com/images/I/71DEK6jSqGL._AC_SY355_.jpg",
     "originalPrice": 99.9,
-    "price": 49.9,
+    "price": 58.04,
     "rating": 4.2,
     "reviewsCount": 6666,
     "isPrime": true,
@@ -126,7 +126,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Tecnologia",
     "image": "https://m.media-amazon.com/images/I/61zm6pi9ziL._AC_SY355_.jpg",
     "originalPrice": 5999.0,
-    "price": 3406.7,
+    "price": 3405.75,
     "rating": 4.8,
     "reviewsCount": 2989,
     "isPrime": true,
@@ -222,7 +222,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Games",
     "image": "https://m.media-amazon.com/images/I/51iXILIT27L._AC_SX342_.jpg",
     "originalPrice": 324.0,
-    "price": 251.77,
+    "price": 149.9,
     "rating": 4.8,
     "reviewsCount": 14500,
     "isPrime": true,
@@ -349,7 +349,7 @@ const INITIAL_PRODUCTS = [
     "category": "achadinhos",
     "categoryName": "Achadinhos & Estilo",
     "image": "https://m.media-amazon.com/images/I/61hVSgGbu9L._AC_SY355_.jpg",
-    "originalPrice": 35.0,
+    "originalPrice": 29.9,
     "price": 19.47,
     "rating": 3.4,
     "reviewsCount": 6100,
