@@ -1,9 +1,9 @@
 /**
  * Catálogo Oficial Sincronizado Automaticamente com a Amazon Brasil
- * Última atualização automática: 11/11/2026 às 05:47
+ * Última atualização automática: 11/11/2026 às 19:28
  */
 
-const LAST_CATALOG_SYNC = "Sincronizado em 11/11/2026 às 05:47";
+const LAST_CATALOG_SYNC = "Sincronizado em 11/11/2026 às 19:28";
 
 const INITIAL_PRODUCTS = [
   {
@@ -126,7 +126,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Tecnologia",
     "image": "https://m.media-amazon.com/images/I/61zm6pi9ziL._AC_SY355_.jpg",
     "originalPrice": 5999.0,
-    "price": 3405.75,
+    "price": 3585.0,
     "rating": 4.8,
     "reviewsCount": 2989,
     "isPrime": true,
