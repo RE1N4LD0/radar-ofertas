@@ -1,9 +1,9 @@
 /**
  * Catálogo Oficial Sincronizado Automaticamente com a Amazon Brasil
- * Última atualização automática: 10/11/2026 às 19:35
+ * Última atualização automática: 11/11/2026 às 05:47
  */
 
-const LAST_CATALOG_SYNC = "Sincronizado em 10/11/2026 às 19:35";
+const LAST_CATALOG_SYNC = "Sincronizado em 11/11/2026 às 05:47";
 
 const INITIAL_PRODUCTS = [
   {
@@ -14,7 +14,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Casa Inteligente",
     "image": "https://m.media-amazon.com/images/I/51sXUs-tZiL._AC_SY355_.jpg",
     "originalPrice": 45.9,
-    "price": 39.0,
+    "price": 35.1,
     "rating": 4.7,
     "reviewsCount": 18400,
     "isPrime": true,
@@ -62,8 +62,8 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Casa & Eletro",
     "image": "https://m.media-amazon.com/images/I/716GA5MQQkL._AC_SY355_.jpg",
     "originalPrice": 549.9,
-    "price": 299.9,
-    "rating": 4.5,
+    "price": 283.41,
+    "rating": 4.3,
     "reviewsCount": 16700,
     "isPrime": true,
     "badge": "Robô Limpeza",
@@ -79,7 +79,7 @@ const INITIAL_PRODUCTS = [
     "image": "https://m.media-amazon.com/images/I/71DEK6jSqGL._AC_SY355_.jpg",
     "originalPrice": 99.9,
     "price": 58.04,
-    "rating": 4.2,
+    "rating": 4.6,
     "reviewsCount": 6666,
     "isPrime": true,
     "badge": "Cozinha",
@@ -143,7 +143,7 @@ const INITIAL_PRODUCTS = [
     "image": "https://m.media-amazon.com/images/I/61sJenYVxrL._AC_SX342_.jpg",
     "originalPrice": 299.0,
     "price": 246.02,
-    "rating": 3.6,
+    "rating": 4.5,
     "reviewsCount": 5120,
     "isPrime": true,
     "badge": "Power Bank",
@@ -222,7 +222,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Games",
     "image": "https://m.media-amazon.com/images/I/51iXILIT27L._AC_SX342_.jpg",
     "originalPrice": 324.0,
-    "price": 149.9,
+    "price": 251.77,
     "rating": 4.8,
     "reviewsCount": 14500,
     "isPrime": true,
@@ -239,7 +239,7 @@ const INITIAL_PRODUCTS = [
     "image": "https://m.media-amazon.com/images/I/81uxfmXpcwL._AC_SY355_.jpg",
     "originalPrice": 711.1,
     "price": 632.85,
-    "rating": 5.0,
+    "rating": 4.4,
     "reviewsCount": 9800,
     "isPrime": true,
     "badge": "Headset Gamer",
@@ -334,8 +334,8 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Achadinhos & Estilo",
     "image": "https://m.media-amazon.com/images/I/51MnEf3yzmL._AC_SY355_.jpg",
     "originalPrice": 699.9,
-    "price": 488.94,
-    "rating": 4.2,
+    "price": 569.9,
+    "rating": 4.6,
     "reviewsCount": 9800,
     "isPrime": true,
     "badge": "Cozinha Prática",
