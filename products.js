@@ -1,9 +1,9 @@
 /**
  * Catálogo Oficial Sincronizado Automaticamente com a Amazon Brasil
- * Última atualização automática: 12/11/2026 às 06:53
+ * Última atualização automática: 12/11/2026 às 19:47
  */
 
-const LAST_CATALOG_SYNC = "Sincronizado em 12/11/2026 às 06:53";
+const LAST_CATALOG_SYNC = "Sincronizado em 12/11/2026 às 19:47";
 
 const INITIAL_PRODUCTS = [
   {
@@ -30,7 +30,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Casa Inteligente",
     "image": "https://m.media-amazon.com/images/I/61evEYmxBZL._AC_SY355_.jpg",
     "originalPrice": 649.0,
-    "price": 349.0,
+    "price": 584.11,
     "rating": 4.8,
     "reviewsCount": 42100,
     "isPrime": true,
@@ -62,7 +62,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Casa & Eletro",
     "image": "https://m.media-amazon.com/images/I/716GA5MQQkL._AC_SY355_.jpg",
     "originalPrice": 549.9,
-    "price": 283.41,
+    "price": 309.9,
     "rating": 4.3,
     "reviewsCount": 16700,
     "isPrime": true,
@@ -94,7 +94,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Setup & PC",
     "image": "https://m.media-amazon.com/images/I/61aIuJu0M0L._AC_SY355_.jpg",
     "originalPrice": 1199.0,
-    "price": 740.05,
+    "price": 739.1,
     "rating": 5.0,
     "reviewsCount": 24363,
     "isPrime": true,
@@ -108,10 +108,10 @@ const INITIAL_PRODUCTS = [
     "title": "Haiz Smartwatch Relógio Inteligente IP67 44mm My Watch I Fit PRETO HZ-ZL02D",
     "category": "tecnologia",
     "categoryName": "Tecnologia",
-    "image": "https://m.media-amazon.com/images/I/719NSvj2fZL._AC_SS115_.jpg",
-    "originalPrice": 134.7,
-    "price": 139.9,
-    "rating": 4.4,
+    "image": "https://m.media-amazon.com/images/I/61nBzdfoI9L._AC_SY355_.jpg",
+    "originalPrice": 99.99,
+    "price": 94.99,
+    "rating": 4.3,
     "reviewsCount": 2989,
     "isPrime": true,
     "badge": "Smartwatch",
@@ -143,7 +143,7 @@ const INITIAL_PRODUCTS = [
     "image": "https://m.media-amazon.com/images/I/61sJenYVxrL._AC_SX342_.jpg",
     "originalPrice": 299.0,
     "price": 246.02,
-    "rating": 4.5,
+    "rating": 4.6,
     "reviewsCount": 5120,
     "isPrime": true,
     "badge": "Power Bank",
@@ -174,7 +174,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Setup & PC",
     "image": "https://m.media-amazon.com/images/I/615c1OkxYwL._AC_SS115_.jpg",
     "originalPrice": 699.0,
-    "price": 419.9,
+    "price": 399.0,
     "rating": 4.6,
     "reviewsCount": 18700,
     "isPrime": true,
@@ -222,7 +222,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Games",
     "image": "https://m.media-amazon.com/images/I/51iXILIT27L._AC_SX342_.jpg",
     "originalPrice": 324.0,
-    "price": 251.77,
+    "price": 144.9,
     "rating": 4.8,
     "reviewsCount": 14500,
     "isPrime": true,
@@ -238,7 +238,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Games",
     "image": "https://m.media-amazon.com/images/I/81uxfmXpcwL._AC_SY355_.jpg",
     "originalPrice": 711.1,
-    "price": 632.85,
+    "price": 639.97,
     "rating": 4.4,
     "reviewsCount": 9800,
     "isPrime": true,
@@ -253,7 +253,7 @@ const INITIAL_PRODUCTS = [
     "category": "games",
     "categoryName": "Games",
     "image": "https://m.media-amazon.com/images/I/51SbkFRJdwL._AC_SX342_.jpg",
-    "originalPrice": 177.0,
+    "originalPrice": 181.71,
     "price": 66.47,
     "rating": 4.9,
     "reviewsCount": 3800,
@@ -334,7 +334,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Achadinhos & Estilo",
     "image": "https://m.media-amazon.com/images/I/51MnEf3yzmL._AC_SY355_.jpg",
     "originalPrice": 699.9,
-    "price": 569.9,
+    "price": 488.94,
     "rating": 4.6,
     "reviewsCount": 9800,
     "isPrime": true,
@@ -349,7 +349,7 @@ const INITIAL_PRODUCTS = [
     "category": "achadinhos",
     "categoryName": "Achadinhos & Estilo",
     "image": "https://m.media-amazon.com/images/I/61hVSgGbu9L._AC_SY355_.jpg",
-    "originalPrice": 29.9,
+    "originalPrice": 19.9,
     "price": 19.47,
     "rating": 3.4,
     "reviewsCount": 6100,
