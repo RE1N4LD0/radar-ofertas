@@ -1,9 +1,9 @@
 /**
  * Catálogo Oficial Sincronizado Automaticamente com a Amazon Brasil
- * Última atualização automática: 12/11/2026 às 19:47
+ * Última atualização automática: 13/11/2026 às 06:13
  */
 
-const LAST_CATALOG_SYNC = "Sincronizado em 12/11/2026 às 19:47";
+const LAST_CATALOG_SYNC = "Sincronizado em 13/11/2026 às 06:13";
 
 const INITIAL_PRODUCTS = [
   {
@@ -14,7 +14,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Casa Inteligente",
     "image": "https://m.media-amazon.com/images/I/51sXUs-tZiL._AC_SY355_.jpg",
     "originalPrice": 45.9,
-    "price": 39.0,
+    "price": 33.15,
     "rating": 4.7,
     "reviewsCount": 18400,
     "isPrime": true,
@@ -62,7 +62,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Casa & Eletro",
     "image": "https://m.media-amazon.com/images/I/716GA5MQQkL._AC_SY355_.jpg",
     "originalPrice": 549.9,
-    "price": 309.9,
+    "price": 299.9,
     "rating": 4.3,
     "reviewsCount": 16700,
     "isPrime": true,
@@ -94,8 +94,8 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Setup & PC",
     "image": "https://m.media-amazon.com/images/I/61aIuJu0M0L._AC_SY355_.jpg",
     "originalPrice": 1199.0,
-    "price": 739.1,
-    "rating": 5.0,
+    "price": 695.08,
+    "rating": 2.0,
     "reviewsCount": 24363,
     "isPrime": true,
     "badge": "Top Gamer",
@@ -108,10 +108,10 @@ const INITIAL_PRODUCTS = [
     "title": "Haiz Smartwatch Relógio Inteligente IP67 44mm My Watch I Fit PRETO HZ-ZL02D",
     "category": "tecnologia",
     "categoryName": "Tecnologia",
-    "image": "https://m.media-amazon.com/images/I/61nBzdfoI9L._AC_SY355_.jpg",
+    "image": "https://m.media-amazon.com/images/I/719NSvj2fZL._AC_SS115_.jpg",
     "originalPrice": 99.99,
-    "price": 94.99,
-    "rating": 4.3,
+    "price": 99.99,
+    "rating": 4.4,
     "reviewsCount": 2989,
     "isPrime": true,
     "badge": "Smartwatch",
@@ -126,7 +126,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Tecnologia",
     "image": "https://m.media-amazon.com/images/I/61zm6pi9ziL._AC_SY355_.jpg",
     "originalPrice": 5999.0,
-    "price": 3585.0,
+    "price": 3406.7,
     "rating": 4.8,
     "reviewsCount": 2989,
     "isPrime": true,
@@ -236,10 +236,10 @@ const INITIAL_PRODUCTS = [
     "title": "Razer Kraken V4 X Minecraft Edition Wired USB Headset for PC Gaming (40mm Drivers, Retractable Cardioid Microphone, Surround Sound, Chroma RGB, for PC and Console) Minecraft",
     "category": "games",
     "categoryName": "Games",
-    "image": "https://m.media-amazon.com/images/I/81uxfmXpcwL._AC_SY355_.jpg",
+    "image": "https://m.media-amazon.com/images/I/71NxwEjlU1L._AC_SS115_.jpg",
     "originalPrice": 711.1,
-    "price": 639.97,
-    "rating": 4.4,
+    "price": 564.6,
+    "rating": 4.3,
     "reviewsCount": 9800,
     "isPrime": true,
     "badge": "Headset Gamer",
@@ -253,7 +253,7 @@ const INITIAL_PRODUCTS = [
     "category": "games",
     "categoryName": "Games",
     "image": "https://m.media-amazon.com/images/I/51SbkFRJdwL._AC_SX342_.jpg",
-    "originalPrice": 181.71,
+    "originalPrice": 178.0,
     "price": 66.47,
     "rating": 4.9,
     "reviewsCount": 3800,
