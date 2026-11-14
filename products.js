@@ -1,9 +1,9 @@
 /**
  * Catálogo Oficial Sincronizado Automaticamente com a Amazon Brasil
- * Última atualização automática: 14/11/2026 às 05:56
+ * Última atualização automática: 14/11/2026 às 17:53
  */
 
-const LAST_CATALOG_SYNC = "Sincronizado em 14/11/2026 às 05:56";
+const LAST_CATALOG_SYNC = "Sincronizado em 14/11/2026 às 17:53";
 
 const INITIAL_PRODUCTS = [
   {
@@ -14,7 +14,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Casa Inteligente",
     "image": "https://m.media-amazon.com/images/I/51sXUs-tZiL._AC_SY355_.jpg",
     "originalPrice": 45.9,
-    "price": 33.15,
+    "price": 39.0,
     "rating": 4.7,
     "reviewsCount": 18400,
     "isPrime": true,
@@ -30,7 +30,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Casa Inteligente",
     "image": "https://m.media-amazon.com/images/I/61evEYmxBZL._AC_SY355_.jpg",
     "originalPrice": 649.0,
-    "price": 584.11,
+    "price": 649.0,
     "rating": 4.8,
     "reviewsCount": 42100,
     "isPrime": true,
@@ -62,7 +62,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Casa & Eletro",
     "image": "https://m.media-amazon.com/images/I/716GA5MQQkL._AC_SY355_.jpg",
     "originalPrice": 549.9,
-    "price": 299.9,
+    "price": 247.92,
     "rating": 4.3,
     "reviewsCount": 16700,
     "isPrime": true,
@@ -73,7 +73,7 @@ const INITIAL_PRODUCTS = [
   {
     "id": "prod-B076FGHHNG",
     "asin": "B076FGHHNG",
-    "title": "MONDIAL Espremedor Premium, Preto, 30W, 220V - E-02",
+    "title": "MONDIAL Espremedor Premium, Mondial, Preto, 30W, 220V - E-02",
     "category": "casa-inteligente",
     "categoryName": "Casa & Eletro",
     "image": "https://m.media-amazon.com/images/I/71DEK6jSqGL._AC_SY355_.jpg",
@@ -84,7 +84,7 @@ const INITIAL_PRODUCTS = [
     "isPrime": true,
     "badge": "Cozinha",
     "amazonUrl": "https://www.amazon.com.br/dp/B076FGHHNG",
-    "description": "MONDIAL Espremedor Premium, Preto, 30W, 220V - E-02"
+    "description": "MONDIAL Espremedor Premium, Mondial, Preto, 30W, 220V - E-02"
   },
   {
     "id": "prod-B0D8DPT7ZY",
@@ -109,8 +109,8 @@ const INITIAL_PRODUCTS = [
     "category": "tecnologia",
     "categoryName": "Tecnologia",
     "image": "https://m.media-amazon.com/images/I/719NSvj2fZL._AC_SS115_.jpg",
-    "originalPrice": 99.99,
-    "price": 99.99,
+    "originalPrice": 121.8,
+    "price": 66.94,
     "rating": 4.4,
     "reviewsCount": 2989,
     "isPrime": true,
@@ -126,7 +126,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Tecnologia",
     "image": "https://m.media-amazon.com/images/I/61zm6pi9ziL._AC_SY355_.jpg",
     "originalPrice": 5999.0,
-    "price": 3406.7,
+    "price": 3486.49,
     "rating": 4.8,
     "reviewsCount": 2989,
     "isPrime": true,
@@ -143,7 +143,7 @@ const INITIAL_PRODUCTS = [
     "image": "https://m.media-amazon.com/images/I/61sJenYVxrL._AC_SX342_.jpg",
     "originalPrice": 299.0,
     "price": 246.02,
-    "rating": 4.6,
+    "rating": 4.5,
     "reviewsCount": 5120,
     "isPrime": true,
     "badge": "Power Bank",
@@ -174,7 +174,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Setup & PC",
     "image": "https://m.media-amazon.com/images/I/615c1OkxYwL._AC_SS115_.jpg",
     "originalPrice": 699.0,
-    "price": 399.0,
+    "price": 409.41,
     "rating": 4.6,
     "reviewsCount": 18700,
     "isPrime": true,
@@ -190,8 +190,8 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Setup & PC",
     "image": "https://m.media-amazon.com/images/I/51--g83VecL._AC_SY355_.jpg",
     "originalPrice": 1504.78,
-    "price": 1229.84,
-    "rating": 4.8,
+    "price": 1265.17,
+    "rating": 4.7,
     "reviewsCount": 8400,
     "isPrime": true,
     "badge": "Teclado Gamer",
@@ -238,7 +238,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Games",
     "image": "https://m.media-amazon.com/images/I/71NxwEjlU1L._AC_SS115_.jpg",
     "originalPrice": 711.1,
-    "price": 564.6,
+    "price": 565.23,
     "rating": 4.3,
     "reviewsCount": 9800,
     "isPrime": true,
@@ -253,9 +253,9 @@ const INITIAL_PRODUCTS = [
     "category": "games",
     "categoryName": "Games",
     "image": "https://m.media-amazon.com/images/I/51SbkFRJdwL._AC_SX342_.jpg",
-    "originalPrice": 178.0,
+    "originalPrice": 165.9,
     "price": 66.47,
-    "rating": 4.9,
+    "rating": 5.0,
     "reviewsCount": 3800,
     "isPrime": true,
     "badge": "Acessório PS5",
@@ -351,7 +351,7 @@ const INITIAL_PRODUCTS = [
     "image": "https://m.media-amazon.com/images/I/61hVSgGbu9L._AC_SY355_.jpg",
     "originalPrice": 19.9,
     "price": 19.47,
-    "rating": 3.4,
+    "rating": 3.6,
     "reviewsCount": 6100,
     "isPrime": true,
     "badge": "Organização",
