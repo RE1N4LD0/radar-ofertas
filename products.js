@@ -1,9 +1,9 @@
 /**
  * Catálogo Oficial Sincronizado Automaticamente com a Amazon Brasil
- * Última atualização automática: 15/11/2026 às 05:58
+ * Última atualização automática: 15/11/2026 às 18:44
  */
 
-const LAST_CATALOG_SYNC = "Sincronizado em 15/11/2026 às 05:58";
+const LAST_CATALOG_SYNC = "Sincronizado em 15/11/2026 às 18:44";
 
 const INITIAL_PRODUCTS = [
   {
@@ -143,7 +143,7 @@ const INITIAL_PRODUCTS = [
     "image": "https://m.media-amazon.com/images/I/61sJenYVxrL._AC_SX342_.jpg",
     "originalPrice": 299.0,
     "price": 246.02,
-    "rating": 4.5,
+    "rating": 4.6,
     "reviewsCount": 5120,
     "isPrime": true,
     "badge": "Power Bank",
@@ -335,7 +335,7 @@ const INITIAL_PRODUCTS = [
     "image": "https://m.media-amazon.com/images/I/51MnEf3yzmL._AC_SY355_.jpg",
     "originalPrice": 699.9,
     "price": 488.94,
-    "rating": 4.6,
+    "rating": 4.7,
     "reviewsCount": 9800,
     "isPrime": true,
     "badge": "Cozinha Prática",
