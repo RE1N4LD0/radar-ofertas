@@ -1,9 +1,9 @@
 /**
  * Catálogo Oficial Sincronizado Automaticamente com a Amazon Brasil
- * Última atualização automática: 15/11/2026 às 18:44
+ * Última atualização automática: 16/11/2026 às 05:58
  */
 
-const LAST_CATALOG_SYNC = "Sincronizado em 15/11/2026 às 18:44";
+const LAST_CATALOG_SYNC = "Sincronizado em 16/11/2026 às 05:58";
 
 const INITIAL_PRODUCTS = [
   {
@@ -62,7 +62,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Casa & Eletro",
     "image": "https://m.media-amazon.com/images/I/716GA5MQQkL._AC_SY355_.jpg",
     "originalPrice": 549.9,
-    "price": 297.41,
+    "price": 309.9,
     "rating": 4.3,
     "reviewsCount": 16700,
     "isPrime": true,
