@@ -1,9 +1,9 @@
 /**
  * Catálogo Oficial Sincronizado Automaticamente com a Amazon Brasil
- * Última atualização automática: 19/11/2026 às 06:59
+ * Última atualização automática: 19/11/2026 às 20:23
  */
 
-const LAST_CATALOG_SYNC = "Sincronizado em 19/11/2026 às 06:59";
+const LAST_CATALOG_SYNC = "Sincronizado em 19/11/2026 às 20:23";
 
 const INITIAL_PRODUCTS = [
   {
@@ -172,10 +172,10 @@ const INITIAL_PRODUCTS = [
     "title": "Logitech Mouse sem fio MX Master 3S edição padrão com receptor USB Logi Bolt, rolagem ultrarrápida, Ergo, 8K DPI, Track on Glass, Cliques silenciosos, USB-C, Bluetooth, Windows, Linux, Chrome",
     "category": "setup",
     "categoryName": "Setup & PC",
-    "image": "https://m.media-amazon.com/images/I/615c1OkxYwL._AC_SS115_.jpg",
+    "image": "https://m.media-amazon.com/images/I/61xKiCADfpL._AC_SS115_.jpg",
     "originalPrice": 699.0,
-    "price": 409.41,
-    "rating": 4.6,
+    "price": 1669.08,
+    "rating": 4.4,
     "reviewsCount": 18700,
     "isPrime": true,
     "badge": "Profissional",
