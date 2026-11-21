@@ -1,9 +1,9 @@
 /**
  * Catálogo Oficial Sincronizado Automaticamente com a Amazon Brasil
- * Última atualização automática: 20/11/2026 às 19:54
+ * Última atualização automática: 21/11/2026 às 06:45
  */
 
-const LAST_CATALOG_SYNC = "Sincronizado em 20/11/2026 às 19:54";
+const LAST_CATALOG_SYNC = "Sincronizado em 21/11/2026 às 06:45";
 
 const INITIAL_PRODUCTS = [
   {
@@ -158,7 +158,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Tecnologia",
     "image": "https://m.media-amazon.com/images/I/512PNKi1KAL._AC_SY355_.jpg",
     "originalPrice": 119.0,
-    "price": 113.05,
+    "price": 103.55,
     "rating": 4.6,
     "reviewsCount": 4200,
     "isPrime": true,
