@@ -1,9 +1,9 @@
 /**
  * Catálogo Oficial Sincronizado Automaticamente com a Amazon Brasil
- * Última atualização automática: 25/11/2026 às 08:03
+ * Última atualização automática: 25/11/2026 às 21:30
  */
 
-const LAST_CATALOG_SYNC = "Sincronizado em 25/11/2026 às 08:03";
+const LAST_CATALOG_SYNC = "Sincronizado em 25/11/2026 às 21:30";
 
 const INITIAL_PRODUCTS = [
   {
@@ -143,7 +143,7 @@ const INITIAL_PRODUCTS = [
     "image": "https://m.media-amazon.com/images/I/61sJenYVxrL._AC_SX342_.jpg",
     "originalPrice": 299.0,
     "price": 246.02,
-    "rating": 4.6,
+    "rating": 1.0,
     "reviewsCount": 5120,
     "isPrime": true,
     "badge": "Power Bank",
