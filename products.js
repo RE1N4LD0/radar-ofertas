@@ -1,9 +1,9 @@
 /**
  * Catálogo Oficial Sincronizado Automaticamente com a Amazon Brasil
- * Última atualização automática: 24/11/2026 às 22:14
+ * Última atualização automática: 25/11/2026 às 08:03
  */
 
-const LAST_CATALOG_SYNC = "Sincronizado em 24/11/2026 às 22:14";
+const LAST_CATALOG_SYNC = "Sincronizado em 25/11/2026 às 08:03";
 
 const INITIAL_PRODUCTS = [
   {
@@ -92,10 +92,10 @@ const INITIAL_PRODUCTS = [
     "title": "Monitor Gamer LG UltraGear 24” IPS, Full HD, 180Hz, 1ms (GtG), HDMI, DisplayPort, HDR10, sRGB 99%, NVIDIA® G-SYNC®, AMD FreeSync™, Preto - 24GS60F-B",
     "category": "setup",
     "categoryName": "Setup & PC",
-    "image": "https://m.media-amazon.com/images/I/71RpoYhSWJL._AC_SS115_.jpg",
+    "image": "https://m.media-amazon.com/images/I/61aIuJu0M0L._AC_SY355_.jpg",
     "originalPrice": 1199.0,
-    "price": 607.05,
-    "rating": 4.8,
+    "price": 740.05,
+    "rating": 5.0,
     "reviewsCount": 24363,
     "isPrime": true,
     "badge": "Top Gamer",
@@ -126,7 +126,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Tecnologia",
     "image": "https://m.media-amazon.com/images/I/61zm6pi9ziL._AC_SY355_.jpg",
     "originalPrice": 5999.0,
-    "price": 3869.1,
+    "price": 3828.49,
     "rating": 4.8,
     "reviewsCount": 2989,
     "isPrime": true,
@@ -172,10 +172,10 @@ const INITIAL_PRODUCTS = [
     "title": "Logitech Mouse sem fio MX Master 3S edição padrão com receptor USB Logi Bolt, rolagem ultrarrápida, Ergo, 8K DPI, Track on Glass, Cliques silenciosos, USB-C, Bluetooth, Windows, Linux, Chrome",
     "category": "setup",
     "categoryName": "Setup & PC",
-    "image": "https://m.media-amazon.com/images/I/61xKiCADfpL._AC_SS115_.jpg",
+    "image": "https://m.media-amazon.com/images/I/615c1OkxYwL._AC_SS115_.jpg",
     "originalPrice": 699.0,
-    "price": 1577.89,
-    "rating": 4.4,
+    "price": 409.41,
+    "rating": 4.6,
     "reviewsCount": 18700,
     "isPrime": true,
     "badge": "Profissional",
@@ -206,7 +206,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Setup & PC",
     "image": "https://m.media-amazon.com/images/I/61gzapgXyuL._AC_SY355_.jpg",
     "originalPrice": 399.9,
-    "price": 250.0,
+    "price": 224.0,
     "rating": 4.9,
     "reviewsCount": 32800,
     "isPrime": true,
@@ -236,10 +236,10 @@ const INITIAL_PRODUCTS = [
     "title": "Razer Kraken V4 X Minecraft Edition Wired USB Headset for PC Gaming (40mm Drivers, Retractable Cardioid Microphone, Surround Sound, Chroma RGB, for PC and Console) Minecraft",
     "category": "games",
     "categoryName": "Games",
-    "image": "https://m.media-amazon.com/images/I/81uxfmXpcwL._AC_SY355_.jpg",
+    "image": "https://m.media-amazon.com/images/I/712Oy-h01EL._AC_SS115_.jpg",
     "originalPrice": 711.1,
-    "price": 24.97,
-    "rating": 4.3,
+    "price": 519.89,
+    "rating": 4.4,
     "reviewsCount": 9800,
     "isPrime": true,
     "badge": "Headset Gamer",
@@ -334,7 +334,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Achadinhos & Estilo",
     "image": "https://m.media-amazon.com/images/I/51MnEf3yzmL._AC_SY355_.jpg",
     "originalPrice": 699.9,
-    "price": 488.94,
+    "price": 440.05,
     "rating": 4.7,
     "reviewsCount": 9800,
     "isPrime": true,
@@ -351,7 +351,7 @@ const INITIAL_PRODUCTS = [
     "image": "https://m.media-amazon.com/images/I/61hVSgGbu9L._AC_SY355_.jpg",
     "originalPrice": 24.27,
     "price": 19.47,
-    "rating": 3.6,
+    "rating": 3.5,
     "reviewsCount": 6100,
     "isPrime": true,
     "badge": "Organização",
