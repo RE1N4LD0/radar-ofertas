@@ -1,9 +1,9 @@
 /**
  * Catálogo Oficial Sincronizado Automaticamente com a Amazon Brasil
- * Última atualização automática: 27/11/2026 às 07:55
+ * Última atualização automática: 27/11/2026 às 20:59
  */
 
-const LAST_CATALOG_SYNC = "Sincronizado em 27/11/2026 às 07:55";
+const LAST_CATALOG_SYNC = "Sincronizado em 27/11/2026 às 20:59";
 
 const INITIAL_PRODUCTS = [
   {
@@ -78,7 +78,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Casa & Eletro",
     "image": "https://m.media-amazon.com/images/I/71DEK6jSqGL._AC_SY355_.jpg",
     "originalPrice": 99.9,
-    "price": 58.04,
+    "price": 58.06,
     "rating": 4.6,
     "reviewsCount": 6666,
     "isPrime": true,
@@ -126,7 +126,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Tecnologia",
     "image": "https://m.media-amazon.com/images/I/61zm6pi9ziL._AC_SY355_.jpg",
     "originalPrice": 5999.0,
-    "price": 3828.49,
+    "price": 3936.99,
     "rating": 4.8,
     "reviewsCount": 2989,
     "isPrime": true,
