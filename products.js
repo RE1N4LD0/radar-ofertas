@@ -1,9 +1,9 @@
 /**
  * Catálogo Oficial Sincronizado Automaticamente com a Amazon Brasil
- * Última atualização automática: 27/11/2026 às 20:59
+ * Última atualização automática: 28/11/2026 às 07:24
  */
 
-const LAST_CATALOG_SYNC = "Sincronizado em 27/11/2026 às 20:59";
+const LAST_CATALOG_SYNC = "Sincronizado em 28/11/2026 às 07:24";
 
 const INITIAL_PRODUCTS = [
   {
@@ -62,7 +62,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Casa & Eletro",
     "image": "https://m.media-amazon.com/images/I/716GA5MQQkL._AC_SY355_.jpg",
     "originalPrice": 549.9,
-    "price": 297.4,
+    "price": 299.9,
     "rating": 4.3,
     "reviewsCount": 16700,
     "isPrime": true,
@@ -94,8 +94,8 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Setup & PC",
     "image": "https://m.media-amazon.com/images/I/61aIuJu0M0L._AC_SY355_.jpg",
     "originalPrice": 1199.0,
-    "price": 740.05,
-    "rating": 5.0,
+    "price": 629.1,
+    "rating": 2.0,
     "reviewsCount": 24363,
     "isPrime": true,
     "badge": "Top Gamer",
@@ -334,7 +334,7 @@ const INITIAL_PRODUCTS = [
     "categoryName": "Achadinhos & Estilo",
     "image": "https://m.media-amazon.com/images/I/51MnEf3yzmL._AC_SY355_.jpg",
     "originalPrice": 699.9,
-    "price": 440.05,
+    "price": 598.41,
     "rating": 4.7,
     "reviewsCount": 9800,
     "isPrime": true,
